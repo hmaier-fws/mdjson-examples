@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Adrian M. Bender (ORCID: 0000-0001-7469-1957)</origin>
+        <origin>Matt Nolan</origin>
+        <pubdate>20211203</pubdate>
+        <title>Fodar Orthomosaic of the Totatlanika River Corridor (Alaska) Acquired August 2021</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, Alaska</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <othercit>Suggested citation: Bender, A.M., Nolan, M., 2021, Fodar orthomosaic and digital elevation model of the Totatlanika River corridor (Alaska) acquired August 2021: U.S. Geological survey data release, https://doi.org/10.5066/P9K7CFRI</othercit>
+        <onlink>https://doi.org/10.5066/P9K7CFRI</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset provides an orthorectified aerial photo mosaic derived from airborne fodar data acquired in 2021 on August 31 over the Totatlanika River in central Alaska. The term "fodar" is a portmanteau of foto and lidar, coined by Matt Nolan, which describes a method of quantifying the color and elevation of Earth’s surface via airborne small-format digital camera photography.</abstract>
+      <purpose>This dataset was acquired for the purpose of mapping and quantifying surface processes (e.g., river incision, landslide erosion) along the Totatlanika River, which drains the minerally endowed and tectonically active northern Alaska Range. The 25 cm/cell elevation data that this data release provides are 25-fold higher resolution than the previously available 5 m/cell Alaska IfSAR digital elevation model.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20210831</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-148.87</westbc>
+        <eastbc>-148.35</eastbc>
+        <northbc>64.24</northbc>
+        <southbc>63.95</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>elevation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>NASA GCMD Earth Science Keywords</themekt>
+        <themekey>Earth Science</themekey>
+        <themekey>Land Surface</themekey>
+        <themekey>Topography</themekey>
+        <themekey>Terrain Elevation</themekey>
+        <themekey>Digital Elevation/Terrain Model (DEM)</themekey>
+        <themekey>Geomorphic Landforms/Processes</themekey>
+        <themekey>Tectonic Landforms</themekey>
+        <themekey>Faults</themekey>
+        <themekey>Mountains</themekey>
+        <themekey>Tectonic Processes</themekey>
+        <themekey>Orogenic Movement</themekey>
+        <themekey>Tectonic Uplift</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>Geomorphology</themekey>
+        <themekey>Topography</themekey>
+        <themekey>Geospatial Datasets</themekey>
+        <themekey>Land surface characteristics</themekey>
+        <themekey>Tectonic processes</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:ASC416</themekey>
+      </theme>
+      <place>
+        <placekt>USGS Geographic Names Information System</placekt>
+        <placekey>Totatlanika River</placekey>
+        <placekey>California Creek</placekey>
+        <placekey>Buzzard Creek</placekey>
+        <placekey>Alaska Range</placekey>
+        <placekey>Alaska</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referenced to this dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntfax>907-786-7020</cntfax>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The USGS contracted Fairbanks Fodar to collect high-resolution airborne fodar (photogrammetry) data that this digital elevation model and orthomosaic are derived from.</datacred>
+    <native>Environment as of date of Metadata Creation: Microsoft Windows 10 Version 20H2 (OS Build 19042.1288); Esri ArcGIS 10.8.1</native>
+    <crossref>
+      <citeinfo>
+        <origin>James V. Jones (ORCID: 0000-0002-6602-5935)</origin>
+        <origin>Douglas Kreiner (ORCID: 0000-0002-4405-1403)</origin>
+        <pubdate>2020</pubdate>
+        <title>Tectonic and Metallogenic Evolution of the Yukon-Tanana Upland, Alaska</title>
+        <geoform>Web site</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, Alaska</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <othercit>This is a link to the broader USGS Alaska Science Center research project supported by these data. Users will find a description of the research project and links to associated reports, publications, and data products.</othercit>
+        <onlink>https://alaska.usgs.gov/portal/project.php?project_id=436</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Real-world location accuracy of the fodar orthomosaics is expected to be within 2 pixels.</attraccr>
+    </attracc>
+    <logic>Landscape features depicted in this orthomosaic align with features in the accompanying digital elevation model.</logic>
+    <complete>The digital elevation model and orthomosaic are complete representations of the surveyed area, without omission.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Fodar-derived raster data have horizontal accuracies within about two pixel values (~24 cm for this orthomosaic).</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Matt Nolan</origin>
+            <origin>Chris Larsen</origin>
+            <origin>Matthew Sturm</origin>
+            <pubdate>20150805</pubdate>
+            <title>Mapping snow depth from manned aircraft on landscape scales at centimeter resolution using structure-from-motion photogrammetry</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>The Cryosphere</sername>
+              <issue>http://www.the-cryosphere.net/9/1445/2015/</issue>
+            </serinfo>
+            <othercit>Full citation: Nolan, M., Larsen, C., and Sturm, M.: Mapping snow depth from manned aircraft on landscape scales at centimeter resolution using structure-from-motion photogrammetry, The Cryosphere, 9, 1445–1463, https://doi.org/10.5194/tc-9-1445-2015, 2015.</othercit>
+            <onlink>http://www.the-cryosphere.net/9/1445/2015/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>journal article</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150805</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>(Nolan et al., 2015)</srccitea>
+        <srccontr>Published documentation of methods used by Fairbanks Fodar to develop Totatlanika River fodar orthomosaic.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Airborne fodar survey - on 31 August 2021, Matt Nolan of Fairbanks Fodar conducted airborne fodar imagery over the Totatlanika River, Alaska for the USGS Alaska Science Center. Fodar acquisition involves multi-frequency GPS or GNSS in the aircraft that is synchronized within milliseconds with the camera trigger to locate photo centers with 10 cm or better precision. A complete fodar acquisition methods description is documented in (Nolan et al., 2015).</procdesc>
+        <srcused>(Nolan et al., 2015)</srcused>
+        <procdate>20210831</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fairbanks Fodar</cntorg>
+              <cntper>Matt Nolan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing</addrtype>
+              <address>PO Box 82416</address>
+              <city>Fairbanks</city>
+              <state>Alaska</state>
+              <postal>99708</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>907-978-0542</cntvoice>
+            <cntemail>info@fairbanksfodar.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Fodar orthomosaic preparation - Matt Nolan of Fairbanks Fodar processed airborne fodar imagery to generate a 12 cm/pixel orthorectified photograph mosaic (orthomosaic) of the Totatlanika River, Alaska for the USGS Alaska Science Center. Orthomosaic preparation involves using photogrammetry software to process multi-frequency GPS or GNSS data synchronized with airborne photo datasets. A complete fodar data processing methods description is documented in (Nolan et al., 2015).</procdesc>
+        <srcused>(Nolan et al., 2015)</srcused>
+        <procdate>20211005</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fairbanks Fodar</cntorg>
+              <cntper>Matt Nolan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing</addrtype>
+              <address>PO Box 82416</address>
+              <city>Fairbanks</city>
+              <state>Alaska</state>
+              <postal>99708</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>907-978-0542</cntvoice>
+            <cntemail>info@fairbanksfodar.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>268000</rowcount>
+      <colcount>196043</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 2011 UTM zone 6N GEOID12B</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-147.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.12</absres>
+            <ordres>0.12</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>GCS NAD83 2011</horizdn>
+        <ellips>GRS80</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>fodarTotatlanikaOrthoUTM6_2021.tif</enttypl>
+        <enttypd>GeoTiff of orthorectified airborne photo mosaic.</enttypd>
+        <enttypds>author defined</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>U.S.A.</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntfax>907-786-7020</cntfax>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Authoritative source for data.</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>TIFF</formname>
+          <formvern>Unknown</formvern>
+          <formspec>GeoTIFF</formspec>
+          <formcont>GeoTIFF format single band (elevation) and four-band (RGB color map) rasters. Includes metadata in XML and HTML formats.</formcont>
+          <filedec>LZW compression.</filedec>
+          <transize>6000</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9K7CFRI</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the dataset.</fees>
+    </stdorder>
+    <techpreq>It is recommended that a geographic information system or other native GeoTIFF viewer be used to view the elevation raster.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20211202</metd>
+    <metrd>20211122</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>U.S.A.</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntfax>907-786-7020</cntfax>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
