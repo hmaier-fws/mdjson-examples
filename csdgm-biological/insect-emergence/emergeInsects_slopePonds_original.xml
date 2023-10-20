@@ -1,0 +1,1339 @@
+<?xml version="1.0"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Sarah M. Laske (ORCID: 0000-0002-6096-0420)</origin>
+        <origin>Kirsty E. B. Gurney </origin>
+        <pubdate>20210430</pubdate>
+        <title>Insect Emergence from Arctic Coastal Plain Thaw Ponds, 2012-2013</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, AK</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <othercit>Laske, S.M. and Gurney, K.E.B., 2021, Insect emergence from Arctic Coastal Plain thaw ponds, 2012-2013: U.S. Geological Survey data release. https://doi.org/10.5066/P9FG9DEO</othercit>
+        <onlink>https://doi.org/10.5066/P9FG9DEO</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>U.S. Geological Survey, Alaska Science Center</origin>
+            <pubdate>2010</pubdate>
+            <title>USGS Changing Arctic Ecosystems: Hydrology</title>
+            <geoform>website</geoform>
+            <serinfo>
+              <sername>Alaska Science Portal</sername>
+              <issue>286</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Anchorage, AK</pubplace>
+              <publish>U.S. Geological Survey, Alaska Science Center</publish>
+            </pubinfo>
+            <othercit>This is a link to the broader USGS Alaska Science Center research project supported by these data. Users will find a description of the research project and links to associated reports, publications, and data products.</othercit>
+            <onlink>https://alaska.usgs.gov/portal/project.php?project_id=286</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset provides information on the identity and number of insects that emerged from thaw pond basins on the central Arctic Coastal Plain, Alaska, during the summer growing season in 2012 and 2013. Collections were made using passive floating emergence traps in pond centers and margins from four types of ponds: low centered polygons, troughs, small coalescent, and large coalescent. A single table provides detail on the family level identity and number of insects captured, the day and year of capture, and the duration of trapping.</abstract>
+      <purpose>Insect collections were made to document the number, composition, and timing of subsidies from tundra wetland habitats to the terrestrial ecosystem.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20120630</begdate>
+          <enddate>20130625</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>The study was focused on a 9 km by 9 km plot in the Chipp River Basin in the central arctic coastal plain, Alaska, USA. The site is in the silty peaty lowland ecoregion, approximately 25 km from the Beaufort Sea coast.
+</descgeog>
+      <bounding>
+        <westbc>-155.36323</westbc>
+        <eastbc>-155.18822</eastbc>
+        <northbc>70.70365</northbc>
+        <southbc>70.65192</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>specimen collecting</themekey>
+        <themekey>entomology</themekey>
+        <themekey>freshwater ecosystems</themekey>
+        <themekey>permafrost</themekey>
+        <themekey>limnology</themekey>
+      </theme>
+      <theme>
+        <themekt>Alexandria Digital Library Feature Type Thesaurus</themekt>
+        <themekey>lakes</themekey>
+        <themekey>tundras</themekey>
+      </theme>
+      <theme>
+        <themekt>Marine Realms Information Bank (MRIB)</themekt>
+        <themekey>coastal plain</themekey>
+        <themekey>pond</themekey>
+        <themekey>polar ecosystems</themekey>
+        <themekey>water quality</themekey>
+      </theme>
+      <theme>
+        <themekt>Coastal and Marine Ecological Classification Standard</themekt>
+        <themekey>Arctic</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:ASC365</themekey>
+      </theme>
+      <place>
+        <placekt>USGS Geographic Names Information System (GNIS)</placekt>
+        <placekey>Alaska</placekey>
+        <placekey>North Slope</placekey>
+        <placekey>Chipp River</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>invertebrates</taxonkey>
+        <taxonkey>Insects</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Integrated Taxonomic Information System (ITIS)</origin>
+              <pubdate>20201203</pubdate>
+              <pubtime>Unknown</pubtime>
+              <title>Integrated Taxonomic Information System (ITIS).</title>
+              <geoform>database</geoform>
+              <pubinfo>
+                <pubplace>Washington, D.C.</pubplace>
+                <publish>U.S. Geological Survey and Smithsonian Institution</publish>
+              </pubinfo>
+              <othercit>Details of the invertebrate taxonomy were retrieved 2020-12-03, from the Integrated Taxonomic Information System online database: https://www.itis.gov/</othercit>
+              <onlink>https://www.itis.gov/</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <idref>
+          <citeinfo>
+            <origin>Merritt, R.W.</origin>
+            <origin>Cummins, K.W.</origin>
+            <origin>Berg, M.B.</origin>
+            <pubdate>2008</pubdate>
+            <title>An introduction to the Aquatic insects of North America</title>
+            <edition>4th</edition>
+            <geoform>book</geoform>
+            <pubinfo>
+              <pubplace>Dubuque, IA, USA</pubplace>
+              <publish>Kendall Hunt Publishing, Co.</publish>
+            </pubinfo>
+            <othercit>Merritt, R.W., Cummins, K.W., Berg, M.B. (eds.) 2008. Aquatic Insects of North America. 4th Edition, Kendall Hunt, Dubuque, IA, USA. p.1158  ISBN:075756321X</othercit>
+          </citeinfo>
+        </idref>
+        <taxonpro>The petri dish containing the emergent insects was placed on a marked grid (2 x 2 cm) and the insects in each cell were identified (to family level, where possible) by the authors and counted under a dissecting microscope. When a complete census of trapped adults was not feasible due to high abundance (&gt; 500 individuals), a subset of cells (n = 13) was counted.</taxonpro>
+      </taxonsys>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Protostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Superphylum</taxonrn>
+              <taxonrv>Ecdysozoa</taxonrv>
+              <taxoncl>
+                <taxonrn>Phylum</taxonrn>
+                <taxonrv>Arthropoda</taxonrv>
+                <taxoncl>
+                  <taxonrn>Subphylum</taxonrn>
+                  <taxonrv>Hexapoda</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Class</taxonrn>
+                    <taxonrv>Insecta</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Subclass</taxonrn>
+                      <taxonrv>Pterygota</taxonrv>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None.</accconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications that reference this dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+          <cntper>Sarah M Laske</cntper>
+        </cntorgp>
+        <cntpos>Research Fish Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>We thank Laura Garey, Eric Torvinen, Constance Johnson, Mark Gilbertson, Megan Zarzicki, and Chris Gurney for help in the field and long hours counting bugs. Funding was provided by the Changing Arctic Ecosystem Initiative supported by the Wildlife program of the USGS Ecosystem Mission Area.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Laske, S.M.</origin>
+        <origin>Gurney, K.E.B.</origin>
+        <origin>Koch, J.C.</origin>
+        <origin>Schmutz, J.A.</origin>
+        <origin>Wipfli, M.S.</origin>
+        <pubdate>20210427</pubdate>
+        <title>Arctic insect emergence timing and composition differs across thaw ponds of varying morphology</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Arctic, Anarctic, and Alpine Research</sername>
+          <issue>Vol. 53, 2021 - Issue 1, pgs. 110-126</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>University of Colorado Boulder</pubplace>
+          <publish>Institute of Arctic and Alpine Research</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1080/15230430.2021.1902249</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Koch, J.C.</origin>
+        <origin>Gurney, K.E.B.</origin>
+        <origin>Wipfli, M.S.</origin>
+        <pubdate>20140414</pubdate>
+        <title>Morphology‐dependent water budgets and nutrient fluxes in Arctic thaw ponds.</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Permafrost and Periglacial Processes</sername>
+          <issue>25(2)</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Hoboken, NJ</pubplace>
+          <publish>John Wiley and Sons, Ltd.</publish>
+        </pubinfo>
+        <othercit>Koch, J.C., Gurney, K. and Wipfli, M.S., 2014, Morphology-dependent water budgets and nutrient fluxes in Arctic thaw ponds: Permafrost and Periglacial Processes, 25(2), pp. 79-93.</othercit>
+        <onlink>https://doi.org/10.1002/ppp.1804</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Exposure to sunlight may have caused temperature sensors to read artificially elevated water temperatures (Johnson and Wilby, 2013), but consistency of the deployment method enabled us to make comparisons across pond classes.
+
+All samples were stored in the cold and dark after being filtered on site and before shipping to the laboratory. In many cases the samples remained in the field for several weeks before there was a way to get them off the site (via float plane) and to the lab.
+
+Biologists used taxonomic keys in Merrit, Cummins, and Berg (2008) and Borror, Triplehorn, and Johnson (1989) to identify insects to the taxonomic family. Any insects that could not be identified to family, either due to small size, indistinguishable features, or damage were excluded from the analysis. This is stated in the analytical methods of the paper.</attraccr>
+    </attracc>
+    <logic>Sample counts were adjusted for the trap sampling area and the number of days the trap was deployed, giving number per square meter per day.
+
+All data were QA QC upon entry and before use in the analysis. All entries were accounted for, and data sheets were referenced and included in the final data set. The insect data are counts; there is no upper limit - there are no negative values or fractions in the count data.</logic>
+    <complete>Any organisms that could not be identified to family (3% of individuals) and any captured larva (non-emergent) were removed from the analysis.
+
+The data set includes only insects identified to the taxonomic level of family. Any identifications made at higher levels (e.g. Order or Class) or aquatic larvae that were not yet emerging but became trapped with the emergent insects were excluded from the data set and the analysis.  
+
+The data represent insects collected from Arctic thaw ponds from within the study area, on the Central Arctic Coastal Plain, AK.</complete>
+    <lineage>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>In each study pond (n = 12), deployed one floating emergence trap in the approximate center of the pond and tethered the trap in place using rebar anchors (Cushman, 1983).At a sub-sample of ponds (n = 8), a second emergence trap was placed in the pond margin, in the transition zone between wetted and dry habitats. Each trap was fitted with a removable petri dish (14 cm diameter) coated with Tree Tanglefoot (Tanglefoot Company, Grand Rapids, Michigan), a sticky substance that captured emerging adults. Samples were collected every 14 days in 2012 and every 10 days in 2013; replacing each petri dish and storing samples as soon as possible in a cool dark location for later processing. Traps were deployed on 29 June 2012 and 10 June 2013. Final collections were made on 11 August in 2012 and 1 August in 2013</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Robert M. Cushman</origin>
+            <pubdate>198311</pubdate>
+            <title>An inexpensive, floating, insect-emergence trap</title>
+            <geoform>journal article</geoform>
+            <pubinfo>
+              <pubplace>New York, New York</pubplace>
+              <publish>Bulletin of Environmental Contamination and Toxicology</publish>
+            </pubinfo>
+            <othercit>Cushman, R.M. ,1983, An inexpensive, floating, insect-emergence trap: Bulletin of Environmental Contamination and Toxicology, v. 31, pp. 547-550.</othercit>
+            <onlink>https://doi.org/10.1007/BF01605473</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+      <method>
+        <methtype>Lab</methtype>
+        <methdesc>The collected petri dishes from emergence traps were placed on a marked grid (2 x 2 cm) and the insects in each cell were identified (to family level, where possible) and counted under a dissecting microscope. Body length (excluding antennae) was measured to the nearest millimeter. When a complete census of trapped adults was not feasible due to high abundance (&gt; 500 individuals), a subset of cells (n = 13) was counted.</methdesc>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>D.J. Borror</origin>
+            <origin>C.A. Triplehorn</origin>
+            <origin>N.F. Johnson</origin>
+            <pubdate>1989</pubdate>
+            <title>An introduction to the study of insects</title>
+            <edition>6</edition>
+            <geoform>book</geoform>
+            <pubinfo>
+              <pubplace>Philadelphia, PA</pubplace>
+              <publish>Saunders College Publishing</publish>
+            </pubinfo>
+            <othercit>Claridge, M. (1991). An introduction to the study of insects. 6th edition. By D. J. Borror, C. A. Triplehorn and N. F. Johnson. (Philadelphia, Saunders College Publishing, 1989) 875 pp. Hard cover £23.50. ISBN 0-03-025397-7. Bulletin of Entomological Research, 81(2), 225-225. doi:10.1017/S0007485300051361</othercit>
+            <onlink>https://doi.org/10.1017/S0007485300051361</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>book</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1989</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Borror et al 1989</srccitea>
+        <srccontr>This book was an instrumental tool for the identification of aquatic, semiaquatic, and terrestrial insects captured in the emergent insect traps.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>R. W. Merritt (Editor)</origin>
+            <origin>K. W. Cummins (Editor)</origin>
+            <origin>M. B. Berg (Editor)</origin>
+            <pubdate>20080101</pubdate>
+            <title> An Introduction to the Aquatic Insects of North America (4th ed.)</title>
+            <edition>4</edition>
+            <geoform>book</geoform>
+            <pubinfo>
+              <pubplace>Dubuque, IA</pubplace>
+              <publish>Kendall Hunt Publishing Company</publish>
+            </pubinfo>
+            <othercit>1158 pp., 
+ISBN-13 : 978-0757563218
+See A. M. R. Bennett's, chapter on aquatic hymenoptera (4th ed., pp. 673–685)</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>book</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Merritt et al 2008</srccitea>
+        <srccontr>The standard reference on the taxonomy, biology and ecology of aquatic insects with updated keys to separate life stages of all major taxonomic groupings.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Emergence trap captures were evaluated at the taxonomic family level for all organisms. Any organisms that could not be identified to family (3% of individuals) and any captured larva (non-emergent) were removed from the analysis. We determined the number and identities of families observed in each pond class. In each sample, counts of insect families were standardized for area and the number of days the trap was deployed.
+
+Summary statistics were examined across the pond classes and mean density was determined by taxonomic family and origin (i.e., aquatic, semiaquatic, and terrestrial). Origin was determined from literature (Borror et al. 1989; Merrit et al. 2008).</procdesc>
+        <srcused>Borror et al 1989</srcused>
+        <srcused>Merrit et al 2008</srcused>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>emergeInsects_slopePonds_insectData_NorthSlopeAK_Laske_2012_2013.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data related to the sample sites for the 25 insect families found in the thaw pond basins on the central Arctic Coastal Plain, Alaska. The taxonomic ranking above the taxonomic rank of Order can be found in the accompanying table, emergeInsects_slopePonds_taxaRanks_NorthSlopeAK_Laske_2012_2013.csv.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Site</attrlabl>
+        <attrdef>A concatenation of several data attributes. There are thirteen (13) unique sites addressed in this table.
+See Koch, et al., 2019. The "Site" field herein directly corresponds to the "Site" field in the table, pondCharacterization_sites_chippRBasin_koch_2013.csv, that provides a table of the latitude and longitude of each pond, information on the pond class, and treatment. Presented in a Comma Separated Value (CSV) formatted table, as found in the data release found at https://doi.org/10.5066/P9K5EV4N</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>A concatenation of several data attributes.
+
+CN = Chipp North, name of study site
+
+pond class -- the type of pond, KL - large coalescent pond, KS - small coalescent pond, P - low centered polygon pond, and TR - trough pond
+
+treatment_pond_number -- the other portion of the study used various fertilizer treatments, Only  control ponds were used. 1-3 are replicates of the pond class. One pond CONTROL3Re was picked up in 2013 when a new pond was needed, "Re", is the replacement.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SampleID</attrlabl>
+        <attrdef>Unique identifier of the pond sample at the time of collection</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <udom>Pond sample identifier at the time of collection</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Taxon</attrlabl>
+        <attrdef>Unique concatenation of four alphabetic characters representing the taxon code combined with the life cycle stage of the identified insect. For example, BAET_adult, BAET represents the insect family Baetidae, followed by an underscore, and adult represents the life cycle stage of that insect.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <udom>Alphabetic code representing the four first characters of the taxon, followed by an underscore and then followed by the characters representing the life cycle stage for each insect captured. For example, BAET_adult, lists the first four uppercase characters that represent the taxon of the sample, followed by the life cycle stage of the insect, in this case an adult.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Order</attrlabl>
+        <attrdef>The Linnaean classification system called the taxonomic hierarchy, which today has eight ranks of traits from general to specific: domain, kingdom, phylum, class, order, family, genus, and species.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Ephemeroptera</edomv>
+            <edomvd>Mayflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Hymenoptera</edomv>
+            <edomvd>Sawflies, wasps, bees and ants</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Diptera</edomv>
+            <edomvd>True flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Homoptera</edomv>
+            <edomvd>True bugs</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Coleoptera</edomv>
+            <edomvd>Beetles</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Trichoptera</edomv>
+            <edomvd>Caddisflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Family</attrlabl>
+        <attrdef>The Linnaean classification system called the taxonomic hierarchy, which today has eight ranks of traits from general to specific: domain, kingdom, phylum, class, order, family, genus, and species.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Baetidae</edomv>
+            <edomvd>mayflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Leptophlebiidae</edomv>
+            <edomvd>mayflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cicadellidae</edomv>
+            <edomvd>leafhoppers</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Braconidae</edomv>
+            <edomvd>braconid wasps</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cecidomyiidae</edomv>
+            <edomvd>gall gnats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ceratopogonidae</edomv>
+            <edomvd>biting midges</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chaoboridae</edomv>
+            <edomvd>phantom midges</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chironomidae</edomv>
+            <edomvd>midges</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Culicidae</edomv>
+            <edomvd>mosquitoes</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dixidae</edomv>
+            <edomvd>dixid midges</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dolichopodidae</edomv>
+            <edomvd>longlegged flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dytiscidae</edomv>
+            <edomvd>predaceous diving beetles</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Empididae</edomv>
+            <edomvd>balloon flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ephydridae</edomv>
+            <edomvd>brine flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ichneumonidae</edomv>
+            <edomvd>ichneumon wasps</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Limnephilidae</edomv>
+            <edomvd>northern caddisflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Muscidae</edomv>
+            <edomvd>house flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mycetophilidae</edomv>
+            <edomvd>fungus gnats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mymaridae</edomv>
+            <edomvd>fairyflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Phoridae</edomv>
+            <edomvd>humpbacked flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Scathophagidae</edomv>
+            <edomvd>dung flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Sciaridae</edomv>
+            <edomvd>dark-winged fungus gnats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Simuliidae</edomv>
+            <edomvd>black flies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Staphylinidae</edomv>
+            <edomvd>rove beetles</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Tipulidae</edomv>
+            <edomvd>crane flies</edomvd>
+            <edomvds>Author defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>The number of insects of a certain Family that were collected from a specific Site on a given Day.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>218</rdommax>
+            <attrunit>Number of individuals</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>The year that the pond was sampled, either 2012 or 2013</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2012</rdommin>
+            <rdommax>2013</rdommax>
+            <attrunit>Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BasinID</attrlabl>
+        <attrdef>BasinID is a combination of site attributes: year - location - pond_class - treatment_pond_number - zone - cycle. 
+
+location -- CN stand for Chipp North, the name of the study site; pond class -- the type of pond; KL - large coalescent pond, KS - small coalescent pond; P - low centered polygon pond; and TR - trough pond
+
+treatment_pond_number -- the other portion of the study used various fertilizer treatments, used only the control ponds here. 1-3 are replicates of the pond class. One pond CONTROL3Re was picked up in 2013 when a new pond was needed, "Re", is the replacement.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <udom>A concatenated alphanumeric code for each individual pond in this dataset.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zone</attrlabl>
+        <attrdef>Location of emergent insect trap deployment in a pond.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Center of pond</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Margin of pond</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Day</attrlabl>
+        <attrdef>Day in calendar year as counted from 1 to 365 (366 in leap years) that the sample was collected. Also known as the ordinal day of the year.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>171</rdommin>
+            <rdommax>224</rdommax>
+            <attrunit>Day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cycle</attrlabl>
+        <attrdef>The ordinal week of collection; groups sets of samples together that were collected in the same week, but not on the same day</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Week 2</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Week 3</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Week 4</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Week 5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Week 6</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Week 7</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Week 9</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sarea</attrlabl>
+        <attrdef>Pond surface area bounded by the trap.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>52</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>square centimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Class</attrlabl>
+        <attrdef>Type of pond. See description in Koch et al., 2014, for further discussion.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>thermokarst_l</edomv>
+            <edomvd>Large thermokarst pond</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>thermokarst_s</edomv>
+            <edomvd>Small thermokarst pond</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>polygon</edomv>
+            <edomvd>Polygon pond</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>trough</edomv>
+            <edomvd>Trough pond</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NDays</attrlabl>
+        <attrdef>The number of days the trap was deployed.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>17</rdommax>
+            <attrunit>Day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>n_adj</attrlabl>
+        <attrdef>Count per meter squared (Count/m^2)</attrdef>
+        <attrdefs>Author defined.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1634.62</rdommax>
+            <attrunit>Decimal</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>emergeInsects_slopePonds_taxaRanks_NorthSlopeAK_Laske_2012_2013.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data related to the taxonomic ranks of the 25 insect families found in the various pond types found in the Central Arctic North Slope, starting with the broader Infraclass down to the less broad Family taxonomic ranks. The taxonomic ranking above Infraclass can be found in the accompanying table, emergeInsects_slopePonds_insectData_NorthSlopeAK_Laske_2012_2013.csv.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Infraclass</attrlabl>
+        <attrdef>The principal taxonomic category that ranks animals (insects) above Superorder and below Subclass. There are two possible Infraclasses of insects within this study.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Palaeoptera</edomv>
+            <edomvd>According to ITIS, Paleopterans are ancient winged insects</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Neoptera</edomv>
+            <edomvd>According to ITIS, Neopterans are modern, wing-folding insects.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Superorder</attrlabl>
+        <attrdef>The principal taxonomic category that ranks animals (Insects) above Order and below Infraclass. There are three possible values for Superorders of insects within this study.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Paraneoptera</edomv>
+            <edomvd>According to ITIS, this is one of three possible Suborders, two of which are listed herein.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Holometabola</edomv>
+            <edomvd>According to ITIS, this is one of three possible Suborders, two of which are listed herein.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Order</attrlabl>
+        <attrdef>The principal taxonomic category that ranks animals above Suborder and below Superorder. There are six possible values for Order of insects within this study.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Ephemeroptera</edomv>
+            <edomvd>Mayflies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Hemiptera</edomv>
+            <edomvd>True bugs.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Trichoptera</edomv>
+            <edomvd>Caddisflies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Hymenoptera</edomv>
+            <edomvd>Ants, bees, and wasps.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Diptera</edomv>
+            <edomvd>Gnats, mosquitoes, and true flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Coleoptera</edomv>
+            <edomvd>Beetles</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Suborder</attrlabl>
+        <attrdef>The principal taxonomic category that ranks animals above Infraorder and below Order. There are nine possible values for Suborder of insects within this study.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pisciforma</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the Family Baetidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Furcatergalia</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the Infraorder Lanceolata.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Auchenorrhyncha</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the Infraorder Cicadomorpha, also known as hoppers.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Apocrita</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the Infraorder Terebrantes</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nematocera</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the Infraorders Bibionomorpha, Culicomorpha, Tipulomorpha, and Bibionomorpha.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Brachycera</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the Infraorders Muscomorpha and Stratiomyomorpha.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Adephaga</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder of the direct child Family Dytiscidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Polyphaga</edomv>
+            <edomvd>One of eight possible Suborders within the scope of this study's taxonomic ranking of insects. This is the parent Suborder to the direct child of the Infraorder  Staphyliniformia.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Infraorder</attrlabl>
+        <attrdef>The principal taxonomic category that ranks animals above Superfamily and below Suborder. There are nine possible values for the Infraorder of insects within this study.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Lanceolata</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This is the parent Infraorder of the Family Leptophlebiidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cicadomorpha</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This is the parent Infraorder of the Superfamily Membracoidea..</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Terebrantes</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This is the parent Infraorder of the Superfamilies Ichneumonoidea, Ichneumonoidea, and Chalcidoidea.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bibionomorpha</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This is the parent Infraorder of the Families Cecidomyiidae, Mycetophilidae, and Sciaridae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Culicomorpha</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This is the parent Infraorder of the Families Ceratopogonidae, Chaoboridae, Chironomidae, Culicidae, Dixidae and Simuliidae in this study.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Muscomorpha</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This  is the parent Infraorder of the Families Dolichopodidae, Empididae, Ephydridae, Muscidae, Mycetophilidae, Phoridae and Scathophagidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Tipulomorpha</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This  is the parent Infraorder of the Family Tipulidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Staphyliniformia</edomv>
+            <edomvd>One of eight possible Infraorders within the scope of this study's taxonomic ranking of insects. This  is the parent Infraorder of the Superfamily Staphylinoidea</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Superfamily</attrlabl>
+        <attrdef>The principal taxonomic category that ranks animals above Family and below Infraorder. There are six possible values for Suborder of insects within this study.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Membracoidea</edomv>
+            <edomvd>One of five possible Superfamilies  within the scope of this study's taxonomic ranking of insects. This  is the parent Superfamily of the Family Cicadellidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Limnephiloidea</edomv>
+            <edomvd>One of five possible Superfamilies  within the scope of this study's taxonomic ranking of insects. This  is the parent Superfamily of the Family.Limnephilidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ichneumonoidea</edomv>
+            <edomvd>One of five possible Superfamilies  within the scope of this study's taxonomic ranking of insects. This  is the parent Superfamily of the Familes Braconidae and Ichneumonidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chalcidoidea</edomv>
+            <edomvd>One of five possible Superfamilies  within the scope of this study's taxonomic ranking of insects. This  is the parent Superfamily of the Family Mymaridae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Staphylinoidea</edomv>
+            <edomvd>One of five possible Superfamilies  within the scope of this study's taxonomic ranking of insects. This  is the parent Superfamily of the Family Staphylinidae.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Family</attrlabl>
+        <attrdef>The principal taxonomic category that splits up the categorical ranking of animal (insects) detail characters below Superfamily. There are 25 possible values for Families of insects within this study. The  Family of insect is the most highly defined and terminal taxonomic rank herein. Family is the rank immediately above both Genus and Species.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Baetidae</edomv>
+            <edomvd>Commonly referred to as mayflies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Leptophlebiidae</edomv>
+            <edomvd>Commonly referred to as mayflies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cicadellidae</edomv>
+            <edomvd>Commonly referred to as leafhoppers.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Limnephilidae</edomv>
+            <edomvd>Commonly referred to as northern caddisflies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Braconidae</edomv>
+            <edomvd>Commonly referred to as braconid wasps.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ichneumonidae</edomv>
+            <edomvd>Commonly referred to as ichneumon wasps.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mymaridae</edomv>
+            <edomvd>Commonly referred to as fairyflies</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cecidomyiidae</edomv>
+            <edomvd>Commonly referred to as gall gnats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ceratopogonidae</edomv>
+            <edomvd>Commonly referred to as biting midges.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chaoboridae</edomv>
+            <edomvd>Commonly referred to as phantom midges,</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chironomidae</edomv>
+            <edomvd>Commonly referred to as midges.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Culicidae</edomv>
+            <edomvd>Commonly referred to as mosquitoes.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dixidae</edomv>
+            <edomvd>Commonly referred to as dixid midges.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dolichopodidae</edomv>
+            <edomvd>Commonly referred to as longlegged flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Empididae</edomv>
+            <edomvd>Commonly referred to as balloon flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ephydridae</edomv>
+            <edomvd>Commonly referred to as brine flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Muscidae</edomv>
+            <edomvd>Commonly referred to as house flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mycetophilidae</edomv>
+            <edomvd>Commonly referred to as fungus gnats.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Phoridae</edomv>
+            <edomvd>Commonly referred to as humpbacked flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Scathophagidae</edomv>
+            <edomvd>Commonly referred to as dung flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Sciaridae</edomv>
+            <edomvd>Commonly referred to as dark-winged fungus gnats</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Simuliidae</edomv>
+            <edomvd>Commonly referred to as black flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Tipulidae</edomv>
+            <edomvd>Commonly referred to as crane flies.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Dytiscidae</edomv>
+            <edomvd>Commonly referred to as predaceous diving beetles.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Staphylinidae</edomv>
+            <edomvd>Commonly referred to as rove beetles.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Authoritative source for the data.</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formcont>Data are distributed in a Zip package containing data in CSV format and FGDC metadata in XML and HTML formats.</formcont>
+          <filedec>Compression applied by the 7-Zip utility using default compression (5). The file can be decompressed and unpacked by open source or commercially available unzip tools.</filedec>
+          <transize>0.4</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9FG9DEO</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20210430</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+          <cntper>Robert T Ourso</cntper>
+        </cntorgp>
+        <cntpos>Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
