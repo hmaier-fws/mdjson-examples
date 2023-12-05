@@ -1,0 +1,32 @@
+[{
+        "schema": {
+            "name": "mdJson",
+            "version": "2.6.0"
+        },
+        "contact": [],
+        "metadata": {
+            "metadataInfo": {
+                "metadataIdentifier": {
+                    "identifier": "ec5689a3-dffd-4902-9414-e0eb7d3f4e09",
+                    "namespace": "urn:uuid"
+                }
+            },
+            "resourceInfo": {
+                "resourceType": [{
+                        "type": "document"
+                    }
+                ],
+                "citation": {
+                    "title": "Minimal mdEditor-JSON record created using mdEditor version 1.1.0"
+                },
+                "defaultResourceLocale": {
+                    "language": "eng",
+                    "characterSet": "UTF-8",
+                    "country": "USA"
+                }
+            }
+        },
+        "metadataRepository": [],
+        "dataDictionary": []
+    }
+]
