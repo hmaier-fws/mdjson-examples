@@ -1,0 +1,73 @@
+[
+    {
+        "contact": [
+            {
+                "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95",
+                "isOrganization": true,
+                "name": "U.S. Geological Survey 1"
+            }
+        ],
+        "dataDictionary": [
+        ],
+        "mdDictionary": [
+        ],
+        "metadata": {
+            "metadataInfo": {
+                "defaultMetadataLocale": {
+                    "characterSet": "UTF-8",
+                    "country": "USA",
+                    "language": "eng"
+                },
+                "metadataContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+                            }
+                        ],
+                        "role": "author"
+                    }
+                ],
+                "metadataIdentifier": {
+                    "identifier": "ec5689a3-dffd-4902-9414-e0eb7d3f4e09",
+                    "namespace": "urn:uuid"
+                }
+            },
+            "resourceInfo": {
+                "abstract": "Minimaly valid mdEditor record (no warnings, edit icons displayed in green color). Created using mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.",
+                "citation": {
+                    "title": "Minimal mdEditor-JSON record created using schema version 2.8.1"
+                },
+                "defaultResourceLocale": {
+                    "characterSet": "UTF-8",
+                    "country": "USA",
+                    "language": "eng"
+                },
+                "pointOfContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+                            }
+                        ],
+                        "role": "pointOfContact"
+                    }
+                ],
+                "resourceType": [
+                    {
+                        "type": "document"
+                    }
+                ],
+                "status": [
+                    "obsolete"
+                ]
+            }
+        },
+        "metadataRepository": [
+        ],
+        "schema": {
+            "name": "mdJson",
+            "version": "2.8.1"
+        }
+    }
+]

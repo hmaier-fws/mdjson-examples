@@ -16,23 +16,24 @@ Early example of a mdJSON file. The file was created in 2017 using mdJSON versio
 This file may not import into newer vesion of the mdEditor, however, it is retained for
 historical and testing purposes.
 
-### mdeditor-minimalRecord-20231205.json
+### minimalRecord-mdeditor-20231205.json
 
-A minimal mdEditor record created by adding only the information required to allow
-a record to be saved (`Record title` and `resource type`).
+A minimal mdEditor record created by adding only the information required to allow a record to be saved (`Record title` and `resource type`).
 
-### mdjson-minimalRecord-20231205.json
+### minimalRecord-mdJson-20231205.json
 
-Contents of *mdeditor-minimalRecord-20231205.json* exported as mdJSON.
+Contents of *minimalRecord-mdEditor-20231205.json* exported as mdJSON.
 
 
 ## csdgm-biological
 
-Examples of valid CSDGM records conforming to the Biological Profile. Contents
-contain the
-source CSDGM XML files and various mdEditor exports.
+Examples of valid CSDGM records conforming to the Biological Profile. Contents contain the source CSDGM XML files and various mdEditor exports.
 
 
 ## csdgm-geospatial
 
 Examples of valid CSDGM records documenting geospatial data.
+
+## /minimal-valid
+
+Minimally valid mdEditor and mdJson records. A collection of minimally valid mdEditor record sets containing a single metadata record, two contact records, and two dictionary records. The recordsets were created using mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.

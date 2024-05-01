@@ -1,0 +1,11 @@
+{
+    "data": [{
+            "id": "10m0fegp",
+            "attributes": {
+                "json": "{\"contactId\":\"13a99c3e-690c-4621-b5d5-2d0ff3bf705d\",\"isOrganization\":false,\"name\":\"Minimal contact name\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[],\"address\":[],\"electronicMailAddress\":[],\"externalIdentifier\":[],\"onlineResource\":[],\"hoursOfService\":[],\"positionName\":\"Minimal position name\"}",
+                "date-updated": "2023-12-05T23:56:39.064Z"
+            },
+            "type": "contacts"
+        }
+    ]
+}
