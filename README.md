@@ -33,3 +33,7 @@ Examples of valid CSDGM records conforming to the Biological Profile. Contents c
 ## csdgm-geospatial
 
 Examples of valid CSDGM records documenting geospatial data.
+
+## /minimal-valid
+
+Minimally valid mdEditor and mdJson records. A collection of minimally valid mdEditor record sets containing a single metadata record, two contact records, and two dictionary records. The recordsets were created using mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.
