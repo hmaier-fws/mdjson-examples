@@ -1,0 +1,12 @@
+{
+    "data": [{
+            "id": "ju8fj4ab",
+            "attributes": {
+                "profile": "org.adiwg.profile.full",
+                "json": "{\"dictionaryId\":\"6dd53ca4-0f7c-4654-a033-bcc2117b3e55\",\"dataDictionary\":{\"citation\":{\"title\":\"Minimal dictionary\",\"date\":[{\"date\":\"2023-12-05T23:54:46.521Z\",\"dateType\":\"creation\"}]},\"subject\":[\"dataDictionary\"]}}",
+                "date-updated": "2023-12-05T23:54:46.521Z"
+            },
+            "type": "dictionaries"
+        }
+    ]
+}
