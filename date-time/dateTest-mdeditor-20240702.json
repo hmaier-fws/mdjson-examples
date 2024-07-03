@@ -1,0 +1,87 @@
+{
+    "data": [
+        {
+            "id": "4159cdf7",
+            "attributes": {
+                "profile": "org.adiwg.profile.full",
+                "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.9.5\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"4159cdf7-ce75-4aea-8639-abf768bf9da6\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"Date test YMD-HMS\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024-07-02T08:25:04-08:00\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = 2024-07-02T08:25:04-08:00\"}},\"metadataRepository\":[]}",
+                "date-updated": "2022-11-07T21:31:58.874Z"
+            },
+            "type": "records"
+        },
+        {
+            "id": "4e25bf16",
+            "attributes": {
+                "profile": "org.adiwg.profile.full",
+                "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.9.5\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"4e25bf16-46fc-4362-87a9-723a2881e840\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"Date test YMD\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024-03-04\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = 2024-03-04\"}},\"metadataRepository\":[]}",
+                "date-updated": "2022-11-07T21:31:58.874Z"
+            },
+            "type": "records"
+        },
+        {
+            "id": "a84cb51a",
+            "attributes": {
+                "profile": "org.adiwg.profile.full",
+                "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.9.5\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"a84cb51a-110f-440d-8837-5b9869c61dad\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"Date test YM\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024-05\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = 2024-05\"}},\"metadataRepository\":[]}",
+                "date-updated": "2022-11-07T21:31:58.874Z"
+            },
+            "type": "records"
+        },
+        {
+            "id": "20328ebe",
+            "attributes": {
+                "profile": "org.adiwg.profile.full",
+                "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.9.5\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"20328ebe-7349-4d70-a916-f873698b8ec2\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"Date test YYYY\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = 2024\"}},\"metadataRepository\":[]}",
+                "date-updated": "2022-11-07T21:31:58.874Z"
+            },
+            "type": "records"
+        },
+        {
+            "id": "tvcv9bbi",
+            "attributes": {
+                "json": "{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\",\"isOrganization\":false,\"name\":\"Hilmar A. Maier\",\"positionName\":\"IT Specialist (Data Management)\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[{\"service\":[\"voice\"],\"phoneName\":\"work\",\"phoneNumber\":\"+1.907.456.0239\"}],\"address\":[{\"addressType\":[\"physical\",\"mailing\"],\"deliveryPoint\":[\"101 12th AV, Room 216\",\"Science Applications\"],\"city\":\"Fairbanks\",\"postalCode\":\"99701\",\"country\":\"USA\",\"administrativeArea\":\"AK\"}],\"electronicMailAddress\":[\"Hilmar_Maier@fws.gov\"],\"onlineResource\":[{\"function\":\"orcid\",\"uri\":\"http://orcid.org/0000-0002-8442-0701\",\"name\":\"ORCID\"}],\"hoursOfService\":[],\"contactType\":\"federal\",\"externalIdentifier\":[]}",
+                "date-updated": "2017-04-07T20:30:28.117Z"
+            },
+            "relationships": {
+                "contacts": {
+                    "data": [
+                    ]
+                },
+                "organizations": {
+                    "data": [
+                    ]
+                }
+            },
+            "type": "contacts"
+        },
+        {
+            "id": "bi5inn11",
+            "attributes": {
+                "compress-on-save": true,
+                "show-splash": true,
+                "keep-settings": true,
+                "auto-save": false,
+                "show-delete": false,
+                "show-copy": false,
+                "last-version": "1.5.0-beta.28+65fe1ead",
+                "date-updated": "2022-06-01T00:21:53.203Z",
+                "character-set": "UTF-8",
+                "country": "USA",
+                "language": "eng",
+                "import-uri-base": "",
+                "md-translator-api": "https://api.sciencebase.gov/mdTranslator/api/v3/translator",
+                "itis-proxy-url": "https://dev-mdtranslator.mdeditor.org",
+                "fiscal-start-month": "10",
+                "repository-defaults": "[]",
+                "publish-options": "{}",
+                "custom-schemas": "[]"
+            },
+            "type": "settings",
+            "meta": {
+                "title": "N/A",
+                "icon": "gear",
+                "export": true
+            }
+        }
+    ]
+}
