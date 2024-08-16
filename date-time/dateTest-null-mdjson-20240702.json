@@ -1,0 +1,115 @@
+[
+    {
+        "schema": {
+            "name": "mdJson",
+            "version": "2.9.5"
+        },
+        "metadata": {
+            "metadataInfo": {
+                "metadataIdentifier": {
+                    "identifier": "22be95a4-b8c5-4073-9ec0-232437e0faf4",
+                    "namespace": "urn:uuid"
+                },
+                "metadataContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "9c5f0309-c537-42bf-bd24-8c9530f83192"
+                            }
+                        ],
+                        "role": "administrator"
+                    }
+                ],
+                "defaultMetadataLocale": {
+                    "language": "eng",
+                    "characterSet": "UTF-8",
+                    "country": "USA"
+                }
+            },
+            "resourceInfo": {
+                "citation": {
+                    "title": "Date test NULL date"
+                },
+                "defaultResourceLocale": {
+                    "language": "eng",
+                    "characterSet": "UTF-8",
+                    "country": "USA"
+                },
+                "status": [
+                    "underDevelopment"
+                ],
+                "resourceType": [
+                    {
+                        "name": "Record to test date import/export",
+                        "type": "document"
+                    }
+                ],
+                "timePeriod": {
+                    "startDateTime": ""
+                },
+                "pointOfContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "9c5f0309-c537-42bf-bd24-8c9530f83192"
+                            }
+                        ],
+                        "role": "author"
+                    }
+                ],
+                "abstract": "Test of data-time control. TimePeriod StartDate = null"
+            }
+        },
+        "metadataRepository": [
+        ],
+        "dataDictionary": [
+        ],
+        "contact": [
+            {
+                "contactId": "9c5f0309-c537-42bf-bd24-8c9530f83192",
+                "isOrganization": false,
+                "name": "Hilmar A. Maier",
+                "positionName": "IT Specialist (Data Management)",
+                "memberOfOrganization": [
+                    "51a0a513-4930-48ab-9f8b-ec4ab8d47a7f"
+                ],
+                "phone": [
+                    {
+                        "service": [
+                            "voice"
+                        ],
+                        "phoneName": "work",
+                        "phoneNumber": "+1.907.456.0239"
+                    }
+                ],
+                "address": [
+                    {
+                        "addressType": [
+                            "physical",
+                            "mailing"
+                        ],
+                        "deliveryPoint": [
+                            "101 12th AV, Room 216",
+                            "Science Applications"
+                        ],
+                        "city": "Fairbanks",
+                        "postalCode": "99701",
+                        "country": "USA",
+                        "administrativeArea": "AK"
+                    }
+                ],
+                "electronicMailAddress": [
+                    "Hilmar_Maier@fws.gov"
+                ],
+                "onlineResource": [
+                    {
+                        "function": "orcid",
+                        "uri": "http://orcid.org/0000-0002-8442-0701",
+                        "name": "ORCID"
+                    }
+                ],
+                "contactType": "federal"
+            }
+        ]
+    }
+]

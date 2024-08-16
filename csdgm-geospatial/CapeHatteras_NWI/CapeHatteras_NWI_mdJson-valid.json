@@ -1,0 +1,657 @@
+[
+    {
+        "contact": [
+            {
+                "contactId": "185899c6-cb96-4638-952f-e3cb66593efa",
+                "isOrganization": false,
+                "name": "Kathryn A Spear"
+            },
+            {
+                "address": [
+                    {
+                        "addressType": [
+                            "physical"
+                        ],
+                        "administrativeArea": "LA",
+                        "city": "Lafayette",
+                        "country": "US",
+                        "deliveryPoint": [
+                            "700 Cajundome Blvd"
+                        ],
+                        "postalCode": "70506"
+                    }
+                ],
+                "contactId": "d6c57348-53e8-44c8-beac-9bcc100226c6",
+                "electronicMailAddress": [
+                    "jonesb@usgs.gov"
+                ],
+                "isOrganization": false,
+                "memberOfOrganization": [
+                    "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+                ],
+                "name": "William R Jones",
+                "phone": [
+                    {
+                        "phoneNumber": "337-266-8500",
+                        "service": [
+                            "voice"
+                        ]
+                    },
+                    {
+                        "phoneNumber": "337-266-8581",
+                        "service": [
+                            "voice"
+                        ]
+                    }
+                ],
+                "positionName": "Geographer"
+            },
+            {
+                "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95",
+                "isOrganization": true,
+                "name": "U.S. Geological Survey"
+            },
+            {
+                "contactId": "669c7ada-214d-477c-a491-c32f6116bb00",
+                "isOrganization": false,
+                "name": "Unknown"
+            },
+            {
+                "address": [
+                    {
+                        "addressType": [
+                            "mailing and physical"
+                        ],
+                        "administrativeArea": "Colorado",
+                        "city": "Denver",
+                        "country": "United States",
+                        "deliveryPoint": [
+                            "Denver Federal Center - Building 810, Mail Stop 302"
+                        ],
+                        "postalCode": "80225"
+                    }
+                ],
+                "contactId": "362f4061-4d2c-4e9e-9978-f9f625544085",
+                "electronicMailAddress": [
+                    "sciencebase@usgs.gov"
+                ],
+                "isOrganization": false,
+                "memberOfOrganization": [
+                    "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+                ],
+                "name": "ScienceBase",
+                "phone": [
+                    {
+                        "phoneNumber": "1-888-275-8747",
+                        "service": [
+                            "voice"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "dataDictionary": [
+            {
+                "citation": {
+                    "title": "Data Dictionary for: Hurricane Sandy impacts on Cape Hatteras (North Carolina), 2012 National Wetlands Inventory Classification"
+                },
+                "dictionaryIncludedWithResource": false,
+                "domain": [
+                    {
+                        "codeName": "Attribute",
+                        "commonName": "NWI Classification Scheme",
+                        "description": "FGDC codeSet domain",
+                        "domainId": "375489b5-23bf-4e8f-bd20-e448a6bf3f98",
+                        "domainReference": {
+                            "title": "Wetlands codes under the Attribute field are associated with the USFWS National Wetlands Inventory Classification Scheme. In 1979, the U.S. Fish & Wildlife Service (USFWS) published a classification of wetlands and deepwater habitats (Cowardin et al.)."
+                        }
+                    },
+                    {
+                        "codeName": "LandWater",
+                        "commonName": "LandWater",
+                        "description": "Land, Water",
+                        "domainId": "27cf72e6-358b-4b88-9bd5-63ab47e9e672",
+                        "domainItem": [
+                            {
+                                "definition": "Land definition",
+                                "name": "Land",
+                                "value": "Land"
+                            },
+                            {
+                                "definition": "Water definition",
+                                "name": "Water",
+                                "value": "Water"
+                            }
+                        ]
+                    },
+                    {
+                        "codeName": "Class",
+                        "commonName": "Class",
+                        "description": "The Field \"Class\" is an aggregation of the NWI Classification Scheme to the Class hierarchical Level.",
+                        "domainId": "27c2ffea-e2b0-4c2b-9f57-43f86f931a96"
+                    }
+                ],
+                "entity": [
+                    {
+                        "attribute": [
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "http://www.fws.gov/wetlands/Data/Wetland-Codes.html"
+                                },
+                                "codeName": "Attribute",
+                                "commonName": "Attribute",
+                                "dataType": "character",
+                                "definition": "Wetlands codes under the Attribute field are associated with the USFWS National Wetlands Inventory Classification Scheme. In 1979, the U.S. Fish & Wildlife Service (USFWS) published a classification of wetlands and deepwater habitats (Cowardin et al.). This serves as the national standard for wetland classification and was used to classify wetlands identified on the National Wetlands Inventory (NWI) maps. Note that the NWI maps were based on 1985 infrared aerial photograph interpretation, and some wetland classes will have changed over time, e.g. as a result of beaver activity, etc. The structure of the classification scheme is hierarchical, with systems forming the highest level of the classification hierarchy, followed by subsystems classes, subclasses and modifiers (water regime, water chemistry, soil and special modifiers such as beaver activity) .",
+                                "domainId": "375489b5-23bf-4e8f-bd20-e448a6bf3f98",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "SHAPE_Length",
+                                "commonName": "SHAPE_Length",
+                                "dataType": "real",
+                                "definition": "Length of feature in internal units.",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "OBJECTID",
+                                "commonName": "OBJECTID",
+                                "dataType": "character",
+                                "definition": "Internal feature number.",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "http://www.fws.gov/wetlands/Data/WetlandCodes.html"
+                                },
+                                "codeName": "LandWater",
+                                "commonName": "LandWater",
+                                "dataType": "character",
+                                "definition": "The Land Water Field represents a further aggreagation of the NWI Classification Scheme data. Anything that is not water ( \"UB\" AB\") is considered land. Unconsolidated Shore modifiers M and N are considered water. Field can only be Land or Water.",
+                                "domainId": "27cf72e6-358b-4b88-9bd5-63ab47e9e672",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "Hectares",
+                                "commonName": "Hectares",
+                                "dataType": "float",
+                                "definition": "Area of polygonal feature that create polygon in Hectares",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "http://www.fws.gov/wetlands/Data/WetlandCodes.html"
+                                },
+                                "codeName": "Class",
+                                "commonName": "Class",
+                                "dataType": "character",
+                                "definition": "The Field \"Class\" is an aggregation of the NWI Classification Scheme to the Class hierarchical Level.",
+                                "domainId": "27c2ffea-e2b0-4c2b-9f57-43f86f931a96",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "Acres",
+                                "commonName": "Acres",
+                                "dataType": "float",
+                                "definition": "Area of polygonal feature that create polygon in acres (U.S.).",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "SHAPE_Area",
+                                "commonName": "SHAPE_Area",
+                                "dataType": "float",
+                                "definition": "Area of feature in internal units squared.",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "Perimeter",
+                                "commonName": "Perimeter",
+                                "dataType": "float",
+                                "definition": "Length of linear feature that create polygon in meters.",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "SHAPE",
+                                "commonName": "SHAPE",
+                                "dataType": "longblob",
+                                "definition": "Feature geometry.",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            },
+                            {
+                                "allowNull": false,
+                                "attributeReference": {
+                                    "title": "Esri"
+                                },
+                                "codeName": "Area",
+                                "commonName": "Area",
+                                "dataType": "float",
+                                "definition": "area of polygon feature in units (meters)",
+                                "isCaseSensitive": false,
+                                "mustBeUnique": true
+                            }
+                        ],
+                        "codeName": "CapeHatteras_2012_PR",
+                        "definition": "This data is a wetland classification for Cape Lookout North Carolina.",
+                        "entityId": "d3b7e978-1d22-4660-818c-0a772d792393",
+                        "entityReference": [
+                            {
+                                "title": "U.S. Geological Survey, Wetland Aquatic Research Center"
+                            }
+                        ]
+                    }
+                ],
+                "responsibleParty": {
+                    "party": [
+                        {
+                            "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+                        }
+                    ],
+                    "role": "pointOfContact"
+                },
+                "subject": [
+                    "dataDictionary"
+                ]
+            }
+        ],
+        "mdDictionary": [
+            "e663f72a-6421-49c0-bbf8-dfc867cad530"
+        ],
+        "metadata": {
+            "dataQuality": [
+                {
+                    "report": [
+                        {
+                            "type": "DQ_NonQuantitativeAttributeCompleteness"
+                        },
+                        {
+                            "qualityMeasure": {
+                                "description": "Data are inherently polygonal and linear. ArcGIS software is used to create and maintain topological relationships between features. Polygonal features begin and end at the same point, contain no overshoots or undershoots, and contain a single label. Linear features are continuous where appropriate, i.e., dangling arcs are removed if they are not required."
+                            },
+                            "type": "DQ_ConceptualConsistency"
+                        },
+                        {
+                            "descriptiveResult": [
+                                {
+                                    "statement": "For the cartographic process (photointerpretation), habitats were identified and mapped in accordance with nationally accepted mapping standards and conventions. For the digital conversion process, conventions and standard check list methodologies in place for the time period were followed."
+                                }
+                            ],
+                            "type": "DQ_CompletenessOmission"
+                        }
+                    ],
+                    "scope": {
+                        "scopeCode": "tabularDataset"
+                    },
+                    "systemIdentifier": {
+                        "label": "CSDGM Data Quality",
+                        "uid": "ee2f1d80-0ba2-42ba-a802-a99389b2b1ec"
+                    }
+                }
+            ],
+            "metadataInfo": {
+                "metadataConstraint": [
+                    {
+                        "legal": {
+                            "useConstraint": [
+                                "Acknowledgement of the U.S. Geological Survey, Wetland Aquatic Research Center (Lafayette , LA and Gainsville, FL Offices)as a data source would be appreciated in products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data. Sharing new data layers developed directly from these data would also be appreciated by WARC staff. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. The distributor shall not be liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. These data are not legal documents and are not to be used as such."
+                            ]
+                        },
+                        "type": "legal"
+                    }
+                ],
+                "metadataContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "d6c57348-53e8-44c8-beac-9bcc100226c6"
+                            }
+                        ],
+                        "role": "pointOfContact"
+                    }
+                ],
+                "metadataDate": [
+                    {
+                        "date": "2020-08-30",
+                        "dateType": "creation"
+                    }
+                ],
+                "metadataIdentifier": {
+                    "identifier": "c6a53786-a281-40e5-8877-91f096fb4b89",
+                    "namespace": "urn:uuid"
+                }
+            },
+            "resourceDistribution": [
+                {
+                    "distributor": [
+                        {
+                            "contact": {
+                                "party": [
+                                    {
+                                        "contactId": "362f4061-4d2c-4e9e-9978-f9f625544085"
+                                    }
+                                ],
+                                "role": "distributor"
+                            },
+                            "orderProcess": [
+                                {
+                                    "fees": "None"
+                                }
+                            ],
+                            "transferOption": [
+                                {
+                                    "distributionFormat": [
+                                        {
+                                            "formatSpecification": {
+                                                "identifier": [
+                                                    {
+                                                        "identifier": "Shapefile"
+                                                    }
+                                                ],
+                                                "title": "Shapefile"
+                                            }
+                                        }
+                                    ],
+                                    "onlineOption": [
+                                        {
+                                            "uri": "https://doi.org/10.5066/F78P5XP1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "liabilityStatement": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
+                }
+            ],
+            "resourceInfo": {
+                "abstract": "In the face of sea level rise and as climate change conditions increase the frequency and intensity of tropical storms along the north-Atlantic Coast, coastal areas will become increasingly vulnerable to storm damage, and the decline of already-threatened species could be exacerbated. Predictions about response of coastal birds to effects of hurricanes will be essential for anticipating and countering environmental impacts. This project will assess coastal bird populations, behavior, and nesting in Hurricane Sandy-impacted North Carolina barrier islands. The project comprises three components: 1) ground-based and airborne lidar analyses to examine site specific selection criteria of coastal birds; 2) NWI classification habitat mapping of DOI lands to examine habitat change associated with Hurricane Sandy, particularly in relation to coastal bird habitat; and 3) a GIS-based synthesis of how patterns of coastal bird distribution and abundance and their habitats have been shaped by storms such as Hurricane Sandy, coastal development, population density, and shoreline management over the past century. We will trace historic changes to shorebird populations and habitats in coastal North Carolina over the past century. Using historic maps and contemporary imagery, the study will quantify changes in shorebird populations and their habitats resulting from periodic storms such as Hurricane Sandy in 2012, to development projects such as the Intracoastal Waterway early in the last century, as well as more recent urban development. We will synthesize existing data on the distribution and abundance of shorebirds in North Carolina and changes in habitats related to storms, coastal development, inlet modifications, and shoreline erosion to give us a better understanding of historic trends for shorebirds and their coastal habitats. Historic data on the distribution and abundance of shorebirds are available from a variety of sources and include bird species identification, location, activity, habitat, and band data. Habitat maps of federal lands in the study area will be created using National Wetlands Inventory mapping standards to assess storm impacts on available nesting habitat. Ground-based LIDAR and high-accuracy GPS data will be collected to develop methods to estimate shorebird nest elevation and microtopography to make predictions about nest site selection and success. Microtopography information collected from lidar data in the area immediately surrounding nest site locations will be used to analyze site specific nesting habitat selection criteria related to topography, substrate (coarseness of sand or cobble), and vegetation cover. The data will be used in future models to assess storm impacts on nest locations, predict long-term population impacts, and influence landscape-scale habitat management strategies that might lessen future impacts of hurricanes on coastal birds and lead to better restoration alternatives.",
+                "citation": {
+                    "date": [
+                        {
+                            "date": "2017",
+                            "dateType": "publication"
+                        }
+                    ],
+                    "onlineResource": [
+                        {
+                            "description": "Link to the resource described in this citation",
+                            "name": "ScienceBase source record",
+                            "uri": "https://doi.org/10.5066/F78P5XP1"
+                        }
+                    ],
+                    "presentationForm": [
+                        "map"
+                    ],
+                    "responsibleParty": [
+                        {
+                            "party": [
+                                {
+                                    "contactId": "185899c6-cb96-4638-952f-e3cb66593efa"
+                                },
+                                {
+                                    "contactId": "d6c57348-53e8-44c8-beac-9bcc100226c6"
+                                }
+                            ],
+                            "role": "originator"
+                        }
+                    ],
+                    "title": "Hurricane Sandy impacts on Cape Hatteras (North Carolina), 2012 National Wetlands Inventory Classification"
+                },
+                "constraint": [
+                    {
+                        "legal": {
+                            "accessConstraint": [
+                                "It is strongly recommended that these data are directly acquired from the U.S. Geological Survey, Wetland Aquatic Research Center and not indirectly through other sources which may have been changed in some way. The distributor makes no claim as to the data suitability for other purposes."
+                            ],
+                            "otherConstraint": [
+                                "It is strongly recommended that these data are directly acquired from the U.S. Geological Survey, Wetland Aquatic Research Center and not indirectly through other sources which may have been changed in some way. The distributor makes no claim as to the data suitability for other purposes.",
+                                "None"
+                            ],
+                            "useConstraint": [
+                                "None"
+                            ]
+                        },
+                        "type": "legal"
+                    }
+                ],
+                "credit": [
+                    "Kate Spear, U.S. Geological Survey, Wetland Aquatic Research Center."
+                ],
+                "defaultResourceLocale": {
+                    "characterSet": "UTF-8",
+                    "country": "USA",
+                    "language": "eng"
+                },
+                "environmentDescription": "Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959",
+                "extent": [
+                    {
+                        "description": "FGDC spatial domain",
+                        "geographicExtent": [
+                            {
+                                "boundingBox": {
+                                    "eastLongitude": -75.437221,
+                                    "northLatitude": 36.000978,
+                                    "southLatitude": 34.998952,
+                                    "westLongitude": -76.042962
+                                },
+                                "containsData": true
+                            }
+                        ]
+                    }
+                ],
+                "keyword": [
+                    {
+                        "keyword": [
+                            {
+                                "keyword": "Hurricane Sandy"
+                            },
+                            {
+                                "keyword": "Outer Banks"
+                            },
+                            {
+                                "keyword": "Wetlands"
+                            },
+                            {
+                                "keyword": "North Carolina"
+                            },
+                            {
+                                "keyword": "Cape Lookout"
+                            },
+                            {
+                                "keyword": "Cape Hatteras"
+                            }
+                        ],
+                        "keywordType": "theme",
+                        "thesaurus": {
+                            "title": "None"
+                        }
+                    },
+                    {
+                        "keyword": [
+                            {
+                                "keyword": "USGS:58877971e4b02e34393bec1e"
+                            }
+                        ],
+                        "keywordType": "theme",
+                        "thesaurus": {
+                            "title": "USGS Metadata Identifier"
+                        }
+                    }
+                ],
+                "pointOfContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "d6c57348-53e8-44c8-beac-9bcc100226c6"
+                            }
+                        ],
+                        "role": "pointOfContact"
+                    }
+                ],
+                "purpose": "To document the effects of sea level rise and climate change on the landscape of Cape Hatteras (Outer Banks, North Carolina). This project will study changes in landscape and habitat as it pertains to the recovery of coastal birds and threatened species in the wake of storms and environmental impacts.",
+                "resourceMaintenance": [
+                    {
+                        "frequency": "None planned"
+                    }
+                ],
+                "resourceType": [
+                    {
+                        "type": "dataset"
+                    }
+                ],
+                "spatialReferenceSystem": [
+                    {
+                        "referenceSystemParameterSet": {
+                            "projection": {
+                                "falseEasting": 500000,
+                                "falseEastingNorthingUnits": "meter",
+                                "falseNorthing": 0,
+                                "latitudeOfProjectionOrigin": 0,
+                                "longitudeOfCentralMeridian": -75,
+                                "projectionIdentifier": {
+                                    "identifier": "transverseMercator",
+                                    "name": "NAD 1983 UTM Zone 18N"
+                                },
+                                "scaleFactorAtCentralMeridian": 0.9996
+                            }
+                        }
+                    },
+                    {
+                        "referenceSystemParameterSet": {
+                            "geodetic": {
+                                "axisUnits": "meter",
+                                "datumIdentifier": {
+                                    "identifier": "D North American 1983",
+                                    "name": "D North American 1983"
+                                },
+                                "denominatorOfFlatteningRatio": 298.257222101,
+                                "ellipsoidIdentifier": {
+                                    "identifier": "GRS 1980",
+                                    "name": "GRS 1980"
+                                },
+                                "semiMajorAxis": 6378137
+                            }
+                        }
+                    }
+                ],
+                "spatialRepresentationType": [
+                    "vector",
+                    "coordinate pair"
+                ],
+                "spatialResolution": [
+                    {
+                        "coordinateResolution": {
+                            "abscissaResolutionX": 0.0001,
+                            "ordinateResolutionY": 0.0001,
+                            "unitOfMeasure": "meter"
+                        }
+                    }
+                ],
+                "status": [
+                    "Complete"
+                ],
+                "timePeriod": {
+                    "description": "(Ground Condition) The orthoimagery used for Cape Hatteras NWI photointerpretation was acquired in October 2012, with1-foot ground resolution as part of the Hurricane Sandy project.   The data is 3-band, natural color aerial imagery acquired from the DMC mapping platform.  The data is served on U.S. Geological Surveys' Hazards Data Distribution System (HDDS). Linkage: http://hddsexplorer.usgs.gov/.   Imagery was acquired for North Carolina's Department of transportation.",
+                    "endDateTime": "2012-03-27",
+                    "startDateTime": "2012-02-02"
+                }
+            },
+            "resourceLineage": [
+                {
+                    "processStep": [
+                        {
+                            "description": "All habitat photointerpretation adheres to protocols and standards used by the U.S. Fish and Wildlife's National Wetland Inventory (NWI) Program. The NWI habitat data classified are outlined in the; Classification of Wetlands and Deepwater Habitats of the United States (https://www.fws.gov/wetlands/Documents/Classification-of-Wetlands-and-Deepwater-Habitats-of-the-United-States.pdf)and (http://www.fws.gov/wetlands/Documents/NWI_Wetlands_and_Deepwater_Map_Code_Diagram.pdf); (Cowardin and other 1979, FWS/OBS  79/31). Uplands are derived from a land use and land cover classification system for use with remote sensor data (Anderson, J.R., Hardy, E.E., Roach J.T., and Witmer R.E., 1976, A land use and land cover classification system for use with remote sensor data: U.S. Geological Survey Professional Paper 964, 28 p.). Depending on project objectives, when mapping broad categories of data, some detail can be lost due to overall project goals. All upland categories, whether vegetated or unvegetated will be classified as Upland. Detailed habitat mapping was made possible using 6-inch pixel resolution, 3 Band (RGB- True Color) stereo and orthoimages covering the project area footprints. Imagery was acquired by the North Carolina Statewide Orthoimagery Program. The digital mosaic of the high resolution color infrared aerial photography project area is brought into ArcMap Software where photointerpretation begins. Habitat types specific to this project were delineated by overlaying project area boundaries onto the imagery and delineating features. Ancillary data sets with similar resolutions, were utilized to help classify areas that may be difficult to identify. Imagery of the project area is also viewed on screen in stereo which helps determine vegetation height and proper habitat classification. Where available, LIDAR data is utilized for elevation information that help discern habitats from one another especially where floating aquatics may be present. Once the photointerpreter completes their initial interpretation of the project area, the photointerpreter will perform a quality assurance review of their own work making corrections or improving their initial interpretation work. After the quality assurance review is complete, the lead photointerpreter will perform the final quality control review. In this review, linework is checked, database is checked for missing labels or inappropriate labels, topology and acreage tables are checked using a USFWS database tool.",
+                            "timePeriod": {
+                                "description": "Step completion dateTime",
+                                "endDateTime": "2013-06-01"
+                            }
+                        }
+                    ],
+                    "source": [
+                        {
+                            "description": "The products are orthoimagery in true color, 1 foot ground resolution imagery published by the  U. S. Geological Survey (USGS) Earth Resources Observation and Science Center (EROS).  Imagery can be downloaded \nhttp://hddsexplorer.usgs.gov.",
+                            "scope": {
+                                "scopeCode": "dataset",
+                                "scopeExtent": [
+                                    {
+                                        "temporalExtent": [
+                                            {
+                                                "timePeriod": {
+                                                    "description": "publication date",
+                                                    "endDateTime": "2012"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sourceCitation": {
+                                "date": [
+                                    {
+                                        "date": "2012-01-01",
+                                        "dateType": "publication"
+                                    }
+                                ],
+                                "responsibleParty": [
+                                    {
+                                        "party": [
+                                            {
+                                                "contactId": "669c7ada-214d-477c-a491-c32f6116bb00"
+                                            }
+                                        ],
+                                        "role": "originator"
+                                    }
+                                ],
+                                "title": "Cape Hatteras 2012 National Wetlands Inventory Classification"
+                            },
+                            "sourceId": "Cape Hatteras 2012 National Wetlands Inventory Classification"
+                        }
+                    ]
+                }
+            ]
+        },
+        "schema": {
+            "name": "mdJson",
+            "version": "2.8.1"
+        }
+    }
+]

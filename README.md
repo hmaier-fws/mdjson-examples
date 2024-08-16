@@ -25,15 +25,20 @@ A minimal mdEditor record created by adding only the information required to all
 Contents of *minimalRecord-mdEditor-20231205.json* exported as mdJSON.
 
 
-## csdgm-biological
+## /csdgm-biological
 
 Examples of valid CSDGM records conforming to the Biological Profile. Contents contain the source CSDGM XML files and various mdEditor exports.
 
 
-## csdgm-geospatial
+## /csdgm-geospatial
 
 Examples of valid CSDGM records documenting geospatial data.
 
+
+## /date-time
+
+Examples of minimally valid mdEditor and mdJson records used to evaluate date and time functions.
+
 ## /minimal-valid
 
-Minimally valid mdEditor and mdJson records. A collection of minimally valid mdEditor record sets containing a single metadata record, two contact records, and two dictionary records. The recordsets were created using mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.
+Examples of minimally valid mdEditor and mdJson records. A collection of minimally valid mdEditor record sets containing a single metadata record, two contact records, and two dictionary records. The recordsets were created using mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.

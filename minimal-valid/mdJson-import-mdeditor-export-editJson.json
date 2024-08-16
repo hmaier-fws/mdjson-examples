@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "date-updated": "2024-04-26T22:22:09.401Z",
+                "json": "{\"mdDictionary\":[\"7e520389-7b0a-4552-ac3f-f5f1bc81c056\"],\"metadata\":{\"metadataInfo\":{\"defaultMetadataLocale\":{\"characterSet\":\"UTF-8\",\"country\":\"USA\",\"language\":\"eng\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"author\"}],\"metadataIdentifier\":{\"identifier\":\"ec5689a3-dffd-4902-9414-e0eb7d3f4e09\",\"namespace\":\"urn:uuid\"}},\"resourceInfo\":{\"abstract\":\"Abstract text\",\"citation\":{\"title\":\"Minimal mdEditor-JSON record created using mdEditor version 1.1.0\"},\"defaultResourceLocale\":{\"characterSet\":\"UTF-8\",\"country\":\"USA\",\"language\":\"eng\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"pointOfContact\"}],\"resourceType\":[{\"type\":\"document\"}],\"status\":[\"obsolete\"]}},\"metadataRepository\":[],\"schema\":{\"name\":\"mdJson\",\"version\":\"2.8.1\"}}",
+                "profile": "org.adiwg.profile.full"
+            },
+            "id": "9csrdhgj",
+            "type": "records"
+        },
+        {
+            "attributes": {
+                "date-updated": "2024-04-26T22:22:09.462Z",
+                "json": "{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\",\"isOrganization\":true,\"name\":\"U.S. Geological Survey 1\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[],\"address\":[],\"electronicMailAddress\":[],\"externalIdentifier\":[],\"onlineResource\":[],\"hoursOfService\":[]}"
+            },
+            "id": "k36h1uof",
+            "type": "contacts"
+        },
+        {
+            "attributes": {
+                "date-updated": "2024-04-26T22:22:09.459Z",
+                "json": "{\"dataDictionary\":{\"citation\":{\"title\":\"Data Dictionary 1\"},\"dictionaryIncludedWithResource\":false,\"domain\":[{\"codeName\":\"LandWater\",\"commonName\":\"LandWater\",\"description\":\"Land, Water\",\"domainId\":\"27cf72e6-358b-4b88-9bd5-63ab47e9e672\",\"domainItem\":[{\"definition\":\"Land definition\",\"name\":\"Land\",\"value\":\"Land\"},{\"definition\":\"Water definition\",\"name\":\"Water\",\"value\":\"Water\"}]}],\"entity\":[{\"attribute\":[{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/Wetland-Codes.html\"},\"codeName\":\"Attribute\",\"commonName\":\"Attribute\",\"dataType\":\"character\",\"definition\":\"Wetlands codes under the Attribute field are associated with the USFWS National Wetlands Inventory Classification Scheme. In 1979, the U.S. Fish & Wildlife Service (USFWS) published a classification of wetlands and deepwater habitats (Cowardin et al.). This serves as the national standard for wetland classification and was used to classify wetlands identified on the National Wetlands Inventory (NWI) maps. Note that the NWI maps were based on 1985 infrared aerial photograph interpretation, and some wetland classes will have changed over time, e.g. as a result of beaver activity, etc. The structure of the classification scheme is hierarchical, with systems forming the highest level of the classification hierarchy, followed by subsystems classes, subclasses and modifiers (water regime, water chemistry, soil and special modifiers such as beaver activity) .\",\"domainId\":\"375489b5-23bf-4e8f-bd20-e448a6bf3f98\",\"isCaseSensitive\":false,\"mustBeUnique\":true},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"codeName\":\"SHAPE_Length\",\"commonName\":\"SHAPE_Length\",\"dataType\":\"real\",\"definition\":\"Length of feature in internal units.\",\"isCaseSensitive\":false,\"mustBeUnique\":true},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"codeName\":\"OBJECTID\",\"commonName\":\"OBJECTID\",\"dataType\":\"character\",\"definition\":\"Internal feature number.\",\"isCaseSensitive\":false,\"mustBeUnique\":true},{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/WetlandCodes.html\"},\"codeName\":\"LandWater\",\"commonName\":\"LandWater\",\"dataType\":\"character\",\"definition\":\"The Land Water Field represents a further aggreagation of the NWI Classification Scheme data. Anything that is not water ( \\\"UB\\\" AB\\\") is considered land. Unconsolidated Shore modifiers M and N are considered water. Field can only be Land or Water.\",\"domainId\":\"27cf72e6-358b-4b88-9bd5-63ab47e9e672\",\"isCaseSensitive\":false,\"mustBeUnique\":true},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"codeName\":\"Hectares\",\"commonName\":\"Hectares\",\"dataType\":\"float\",\"definition\":\"Area of polygonal feature that create polygon in Hectares\",\"isCaseSensitive\":false,\"mustBeUnique\":true}],\"codeName\":\"CapeHatteras_2012_PR\",\"definition\":\"This data is a wetland classification for Cape Lookout North Carolina.\",\"entityId\":\"d3b7e978-1d22-4660-818c-0a772d792393\",\"entityReference\":[{\"title\":\"U.S. Geological Survey, Wetland Aquatic Research Center\"}]}],\"responsibleParty\":{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"pointOfContact\"},\"subject\":[\"dataDictionary\"]},\"dictionaryId\":\"b1be69d4-67ba-40ce-b09f-894a7073c9bf\"}",
+                "profile": "org.adiwg.profile.full"
+            },
+            "id": "rpcjgqqr",
+            "type": "dictionaries"
+        },
+        {
+            "attributes": {
+                "auto-save": false,
+                "character-set": "UTF-8",
+                "compress-on-save": true,
+                "country": "USA",
+                "custom-schemas": "[]",
+                "date-updated": "2024-04-24T19:05:40.508Z",
+                "fiscal-start-month": "10",
+                "import-uri-base": "",
+                "itis-proxy-url": "https://api.sciencebase.gov/mdTranslator",
+                "keep-settings": true,
+                "language": "eng",
+                "last-version": "1.2.1+405d949e",
+                "md-translator-api": "https://api.sciencebase.gov/mdTranslator/api/v3/translator",
+                "publish-options": "{}",
+                "repository-defaults": "[]",
+                "show-copy": false,
+                "show-delete": false,
+                "show-splash": false
+            },
+            "id": "2n0abeij",
+            "type": "settings"
+        }
+    ]
+}
