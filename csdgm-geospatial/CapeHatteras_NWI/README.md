@@ -31,6 +31,7 @@ The *CapeHatteras_NWI_mdEditor-initial.json* file edited to resolve errors and l
 
 Simplified version of "CapeHatteras_NWI_mdJson-valid.json". The source file was simplified to contain a single metadata record, three contacts, and two data dictionaries. Additional changes include:
 
+  - modified using mdEditor v1.2.1, mdJSON Schema v2.8.1
   - data dictionary includes one domain
   - reduce number of data dictionary attributes
   - reduce number of contacts
