@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "5se843s2",
+      "attributes": {
+        "compress-on-save": true,
+        "show-splash": false,
+        "keep-settings": true,
+        "auto-save": false,
+        "show-delete": false,
+        "show-copy": false,
+        "last-version": "1.2.1+405d949e",
+        "date-updated": "2025-07-10T21:33:35.343Z",
+        "character-set": "UTF-8",
+        "country": "USA",
+        "language": "eng",
+        "import-uri-base": "",
+        "md-translator-api": "https://api.sciencebase.gov/mdTranslator/api/v3/translator",
+        "itis-proxy-url": "https://api.sciencebase.gov/mdTranslator",
+        "fiscal-start-month": "10",
+        "repository-defaults": "[]",
+        "publish-options": "{}",
+        "custom-schemas": "[]"
+      },
+      "type": "settings"
+    }
+  ]
+}
