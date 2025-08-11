@@ -12,7 +12,11 @@ The source metadata from the above (CapeHatteras_NWI_2012.xml) was modified for 
 
 ### min-valid-mdEditor-20240430.json
 
-A minimally valid mdEditor record set containing a single metadata record, two contact records, and two dictionary records. The dictionaries are not linked to the metadata record. The recordset was created using the "Export All" function of mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.
+A minimally valid mdEditor record set containing a single metadata record, two contact records, and two dictionary records. The dictionaries are not linked to the metadata record. The recordset was created using the "Export All" function of `mdEditor version 1.2.1` (https://github.com/adiwg/mdEditor/tree/405d949e) and `schema version 2.8.1`.
+
+### min-valid-mdEditor-20250811.json
+A minimally valid mdEditor record set containing a single metadata record, two contact records, and two dictionary records. The dictionaries are not linked to the metadata record. The recordset was created using the "Export All" function of `mdEditor version 1.3.0-rc.5` (https://github.com/adiwg/mdEditor/tree/e1118655) and `schema version 2.10.2`. A copy of *min-valid-mdEditor-20240430.json* was manually edited to ensure the internal mdEditor "id" matched that of the associated records.
+
 
 ### min-valid-mdJson-20240430.json
 The metadata record from the *min-valid-mdEditor-20240430.json* recordset exported to mdJSON format using the "Export mdJSON" function.
@@ -27,6 +31,9 @@ The *min-valid-mdEditor-20240430.json* recordset edited to associate "Data Dicti
 
 ### min-valid-mdJson-dict1-20240430.json
 The metadata record from the *min-valid-mdEditor-dict1-20240430.json* recordset exported to mdJSON format using the "Export mdJSON" function.
+
+### min-valid-mdJson-dict2-20250811.json
+The *min-valid-mdEditor-20250811.json* recordset edited to associate "Data Dictionary 1" and "Data Dictionary 2" with the metadata record. Data were then exported to mdJSON format using the "Export mdJSON" function.
 
 ---
 
