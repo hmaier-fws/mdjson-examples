@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": "ec5689a3",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"ec5689a3-dffd-4902-9414-e0eb7d3f4e09\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"author\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"resourceType\":[{\"type\":\"document\"}],\"citation\":{\"title\":\"Minimal mdEditor-JSON record created using schema version 2.8.1\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"pointOfContact\"}],\"status\":[\"obsolete\"],\"abstract\":\"Minimaly valid mdEditor record (no warnings, edit icons displayed in green color). Created using mdEditor version 1.2.1 (https://github.com/adiwg/mdEditor/tree/405d949e) and schema version 2.8.1.\"}},\"metadataRepository\":[],\"mdDictionary\":[]}",
+        "date-updated": "2023-12-05T20:28:42.834Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "f16524f3",
+      "attributes": {
+        "json": "{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\",\"isOrganization\":true,\"name\":\"U.S. Geological Survey 1\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[],\"address\":[],\"electronicMailAddress\":[],\"externalIdentifier\":[],\"onlineResource\":[],\"hoursOfService\":[]}",
+        "date-updated": "2024-04-24T21:08:38.198Z",
+        "rev": null
+      },
+      "type": "contacts"
+    },
+    {
+      "id": "5c92c306",
+      "attributes": {
+        "json": "{\"contactId\":\"5c92c306-db74-427b-a2fe-bc8aa49a4101\",\"isOrganization\":true,\"name\":\"U.S. Geological Survey 2\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[],\"address\":[],\"electronicMailAddress\":[],\"externalIdentifier\":[],\"onlineResource\":[],\"hoursOfService\":[]}",
+        "date-updated": "2024-04-26T21:30:18.566Z",
+        "rev": null
+      },
+      "type": "contacts"
+    },
+    {
+      "id": "7e520389",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"dictionaryId\":\"7e520389-7b0a-4552-ac3f-f5f1bc81c056\",\"citation\":{\"title\":\"Data Dictionary 1\"},\"dictionaryIncludedWithResource\":false,\"domain\":[{\"domainId\":\"27cf72e6-358b-4b88-9bd5-63ab47e9e672\",\"commonName\":\"LandWater\",\"codeName\":\"LandWater\",\"description\":\"Land, Water\",\"domainItem\":[{\"name\":\"Land\",\"value\":\"Land\",\"definition\":\"Land definition\"},{\"name\":\"Water\",\"value\":\"Water\",\"definition\":\"Water definition\"}]}],\"entity\":[{\"entityId\":\"d3b7e978-1d22-4660-818c-0a772d792393\",\"codeName\":\"CapeHatteras_2012_PR\",\"definition\":\"This data is a wetland classification for Cape Lookout North Carolina.\",\"entityReference\":[{\"title\":\"U.S. Geological Survey, Wetland Aquatic Research Center\"}],\"attribute\":[{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/Wetland-Codes.html\"},\"commonName\":\"Attribute\",\"codeName\":\"Attribute\",\"definition\":\"Wetlands codes under the Attribute field are associated with the USFWS National Wetlands Inventory Classification Scheme. In 1979, the U.S. Fish & Wildlife Service (USFWS) published a classification of wetlands and deepwater habitats (Cowardin et al.). This serves as the national standard for wetland classification and was used to classify wetlands identified on the National Wetlands Inventory (NWI) maps. Note that the NWI maps were based on 1985 infrared aerial photograph interpretation, and some wetland classes will have changed over time, e.g. as a result of beaver activity, etc. The structure of the classification scheme is hierarchical, with systems forming the highest level of the classification hierarchy, followed by subsystems classes, subclasses and modifiers (water regime, water chemistry, soil and special modifiers such as beaver activity) .\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"domainId\":\"375489b5-23bf-4e8f-bd20-e448a6bf3f98\",\"dataType\":\"character\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"commonName\":\"SHAPE_Length\",\"codeName\":\"SHAPE_Length\",\"definition\":\"Length of feature in internal units.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"real\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"commonName\":\"OBJECTID\",\"codeName\":\"OBJECTID\",\"definition\":\"Internal feature number.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"character\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/WetlandCodes.html\"},\"commonName\":\"LandWater\",\"codeName\":\"LandWater\",\"definition\":\"The Land Water Field represents a further aggreagation of the NWI Classification Scheme data. Anything that is not water ( \\\"UB\\\" AB\\\") is considered land. Unconsolidated Shore modifiers M and N are considered water. Field can only be Land or Water.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"domainId\":\"27cf72e6-358b-4b88-9bd5-63ab47e9e672\",\"dataType\":\"character\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"commonName\":\"Hectares\",\"codeName\":\"Hectares\",\"definition\":\"Area of polygonal feature that create polygon in Hectares\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"float\"}]}],\"responsibleParty\":{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"pointOfContact\"},\"subject\":[\"dataDictionary\"]}",
+        "date-updated": "2024-04-24T21:08:38.262Z",
+        "rev": null
+      },
+      "type": "dictionaries"
+    },
+    {
+      "id": "0e3b807f",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"dictionaryId\":\"0e3b807f-0f1a-477f-a8a4-b2b8e0d04ea5\",\"citation\":{\"title\":\"Data Dictionary 2\"},\"dictionaryIncludedWithResource\":false,\"domain\":[{\"domainId\":\"375489b5-23bf-4e8f-bd20-e448a6bf3f98\",\"commonName\":\"NWI Classification Scheme\",\"codeName\":\"Attribute\",\"description\":\"FGDC codeSet domain\",\"domainReference\":{\"title\":\"Wetlands codes under the Attribute field are associated with the USFWS National Wetlands Inventory Classification Scheme. In 1979, the U.S. Fish & Wildlife Service (USFWS) published a classification of wetlands and deepwater habitats (Cowardin et al.).\"}},{\"domainId\":\"27cf72e6-358b-4b88-9bd5-63ab47e9e672\",\"commonName\":\"LandWater\",\"codeName\":\"LandWater\",\"description\":\"Land, Water\",\"domainItem\":[{\"name\":\"Land\",\"value\":\"Land\",\"definition\":\"Land definition\"},{\"name\":\"Water\",\"value\":\"Water\",\"definition\":\"Water definition\"}]}],\"entity\":[{\"entityId\":\"d3b7e978-1d22-4660-818c-0a772d792393\",\"codeName\":\"CapeHatteras_2012_PR\",\"definition\":\"This data is a wetland classification for Cape Lookout North Carolina.\",\"entityReference\":[{\"title\":\"U.S. Geological Survey, Wetland Aquatic Research Center\"}],\"attribute\":[{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/Wetland-Codes.html\"},\"commonName\":\"Attribute\",\"codeName\":\"Attribute\",\"definition\":\"Wetlands codes under the Attribute field are associated with the USFWS National Wetlands Inventory Classification Scheme. In 1979, the U.S. Fish & Wildlife Service (USFWS) published a classification of wetlands and deepwater habitats (Cowardin et al.). This serves as the national standard for wetland classification and was used to classify wetlands identified on the National Wetlands Inventory (NWI) maps. Note that the NWI maps were based on 1985 infrared aerial photograph interpretation, and some wetland classes will have changed over time, e.g. as a result of beaver activity, etc. The structure of the classification scheme is hierarchical, with systems forming the highest level of the classification hierarchy, followed by subsystems classes, subclasses and modifiers (water regime, water chemistry, soil and special modifiers such as beaver activity) .\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"domainId\":\"375489b5-23bf-4e8f-bd20-e448a6bf3f98\",\"dataType\":\"character\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"commonName\":\"SHAPE_Length\",\"codeName\":\"SHAPE_Length\",\"definition\":\"Length of feature in internal units.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"real\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"commonName\":\"OBJECTID\",\"codeName\":\"OBJECTID\",\"definition\":\"Internal feature number.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"character\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/WetlandCodes.html\"},\"commonName\":\"LandWater\",\"codeName\":\"LandWater\",\"definition\":\"The Land Water Field represents a further aggreagation of the NWI Classification Scheme data. Anything that is not water ( \\\"UB\\\" AB\\\") is considered land. Unconsolidated Shore modifiers M and N are considered water. Field can only be Land or Water.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"domainId\":\"27cf72e6-358b-4b88-9bd5-63ab47e9e672\",\"dataType\":\"character\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"Esri\"},\"commonName\":\"Hectares\",\"codeName\":\"Hectares\",\"definition\":\"Area of polygonal feature that create polygon in Hectares\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"float\"},{\"allowNull\":false,\"attributeReference\":{\"title\":\"http://www.fws.gov/wetlands/Data/WetlandCodes.html\"},\"commonName\":\"Class\",\"codeName\":\"Class\",\"definition\":\"The Field \\\"Class\\\" is an aggregation of the NWI Classification Scheme to the Class hierarchical Level.\",\"mustBeUnique\":true,\"isCaseSensitive\":false,\"dataType\":\"character\"}]}],\"responsibleParty\":{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"pointOfContact\"},\"subject\":[\"dataDictionary\"]}",
+        "date-updated": "2024-04-26T21:26:56.394Z",
+        "rev": null
+      },
+      "type": "dictionaries"
+    },
+    {
+      "attributes": {
+        "auto-save": false,
+        "character-set": "UTF-8",
+        "compress-on-save": true,
+        "country": "USA",
+        "custom-schemas": "[]",
+        "date-updated": "2024-04-24T19:05:40.508Z",
+        "fiscal-start-month": "10",
+        "import-uri-base": "",
+        "itis-proxy-url": "",
+        "keep-settings": true,
+        "language": "eng",
+        "last-version": "1.2.1+405d949e",
+        "md-translator-api": "",
+        "publish-options": "{}",
+        "repository-defaults": "[]",
+        "show-copy": false,
+        "show-delete": false,
+        "show-splash": false
+      },
+      "id": "2n0abeij",
+      "meta": {
+        "title": "N/A",
+        "icon": "gear",
+        "export": true
+      },
+      "type": "settings"
+    }
+  ]
+}
