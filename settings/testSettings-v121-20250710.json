@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "5se843s2",
+      "attributes": {
+        "compress-on-save": true,
+        "show-splash": false,
+        "keep-settings": false,
+        "auto-save": true,
+        "show-delete": true,
+        "show-copy": true,
+        "last-version": "1.2.1+405d949e",
+        "date-updated": "2025-07-10T21:33:35.343Z",
+        "character-set": "UTF-8",
+        "country": "USA",
+        "language": "eng",
+        "import-uri-base": "http://example.com/import-url",
+        "md-translator-api": "http://example.com/mdTranslator-url",
+        "itis-proxy-url": "https://api.sciencebase.gov/mdTranslator",
+        "fiscal-start-month": "10",
+        "repository-defaults": "[{\"repository\":\"data.gov\",\"title\":\"Data.gov test repository\"}]",
+        "publish-options": "{\"sb-defaultParent\":\"scienceBase-defaultId\"}",
+        "custom-schemas": "[]"
+      },
+      "type": "settings"
+    }
+  ]
+}
