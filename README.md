@@ -34,6 +34,9 @@ Examples of valid CSDGM records conforming to the Biological Profile. Contents c
 
 Examples of valid CSDGM records documenting geospatial data.
 
+## /custom
+
+Example mdEditor and mdJson records that contain custom elements embedded within the mdJSON.
 
 ## /date-time
 
