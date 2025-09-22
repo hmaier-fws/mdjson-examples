@@ -1,11 +1,11 @@
 # mdJSON files containing custom elements
 
-mdJSON allows a user to extend the schema by including custom elements. Those elements will be ignored by the mdEditor, but should be be retained during import/export. The files in this directory are for use in testing mdEditor functions related to custom mdJson elements.
+The mdJSON format allows a user to extend the schema by including custom elements. Those elements will be ignored by the mdEditor, but should be be retained during import/export. The files in this directory are for use in testing mdEditor functions related to custom mdJson elements.
 
-Versions of the mdEditor prior to v1.3.0 contained a bugs that caused:
+Versions of the mdEditor prior to v1.3.0 contained bugs that caused:
 
-  - excess data to be embedded within the mdEditor-Json `json: { }` object. Import of a mdJson file resulted in the contacts and data dictionaries being embedded within the record `json: { }` object as `contact[ ]` and `dataDictionary: [ ]` array elements. See [issue #682](https://github.com/adiwg/mdEditor/issues/682).
-  - a `mdDictionary: [ ]` array to be included in a mdJson export. A `mdDictionary: [ ]` element is required to be present in the mdEditor-Json export, but it is not a valid element of the base mdJson schema. See [issue #770](https://github.com/adiwg/mdEditor/issues/770). 
+  - excess data to be embedded within the mdEditor-JSON `json: { }` object. Import of a mdJson file resulted in the contacts and data dictionaries being embedded within the record `json: { }` object as `contact[ ]` and `dataDictionary: [ ]` array elements. See [issue #682](https://github.com/adiwg/mdEditor/issues/682).
+  - a `mdDictionary: [ ]` array to be included in a mdJson export. A `mdDictionary: [ ]` element is required to be present in the mdEditor-JSON export as an element within the "records" object. However, it is not a valid element of the base mdJson schema (mdJson defines a single metadata record and all dictionaries present are associated with the metadata record). See [issue #770](https://github.com/adiwg/mdEditor/issues/770). 
 
 The contact and dataDictionary array elements embedded withing the `json: { }` object are not used by the mdEditor. However, because schema extension is allowed, the elements are retained when a record is exported to the mdEditor-Json format ("Export All" or "Export Selected"). 
 
