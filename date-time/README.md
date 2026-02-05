@@ -6,9 +6,9 @@ Minimally valid mdEditor and mdJson records for use in testing date-time import,
 
 ## Files
 
-### dateTest-mdeditor-20260204.json
+### dateTest-mdeditor-20260205.json
 
-A minimally valid mdEditor recordset, containing metadata records intended for use in testin the import of "Citation" and "Time Period" date-time values. Created using mdEditor version 1.3.1 (mdJSON schema v 2.10.2). The recordset contains seven metadata records titled:
+A minimally valid mdEditor recordset, containing metadata records intended for use in testing the import of "Citation" and "Time Period" date-time values. Created using mdEditor version 1.3.1 (mdJSON schema v 2.10.2). The recordset contains seven metadata records titled:
 
   - "Citation date test"
   - "YYYY Time Period"
@@ -31,9 +31,9 @@ The "*Citation date test*" record contains several citation dates stored in a va
 
 The remaining records each specify a "Time Period" "Start Date" precision, as indicated by the record name (e.g., "*YM Time Period*" records the date as `"startDateTime":"2024-05"`).
 
-### dateTest-mdjson-20260204.json
+### dateTest-mdjson-20260205.json
 
-The "*Citation date test*" metadata record from the above *dateTest-mdeditor-20260204.json* recordset, exported as mdJSON ("Export mdJSON" function) using mdEditor version 1.3.1 (mdJSON schema v 2.10.2).
+The "*Citation date test*" metadata record from the above *dateTest-mdeditor-20260205.json* recordset, exported as mdJSON ("Export mdJSON" function) and manually edited to add the null date value back into the data. Created using mdEditor version 1.3.1 (mdJSON schema v 2.10.2).
 
 ## Deprecated files
 

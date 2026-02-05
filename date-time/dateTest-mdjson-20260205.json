@@ -62,7 +62,8 @@
             },
             {
               "date": "2003-04-05T020:25:30",
-              "dateType": "time-no offset"
+              "dateType": "time-no Z/offset",
+              "description": "yy-mm-ddThh:mm:ss format"
             },
             {
               "date": "20:15:30",
@@ -70,6 +71,7 @@
               "description": "hh:mm:ss"
             },
             {
+              "date": "",
               "dateType": "null",
               "description": "null value"
             }
