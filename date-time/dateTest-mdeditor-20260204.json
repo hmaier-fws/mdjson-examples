@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "id": "2b6173a7",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"2b6173a7-fe57-4878-bdc6-d6e27b6902cb\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"resourceType\":[{\"type\":\"report\"}],\"citation\":{\"title\":\"Citation date test\",\"date\":[{\"date\":\"2000\",\"dateType\":\"year\",\"description\":\"yyyy format\"},{\"date\":\"2001-02\",\"dateType\":\"month\",\"description\":\"yyyy-mm format\"},{\"date\":\"2002-03-04\",\"dateType\":\"day\",\"description\":\"yyyy-mm-dd format\"},{\"date\":\"2003-04-05T11:25:30-09:00\",\"dateType\":\"time\",\"description\":\"Default yy-mm-ddThh:mm:ss-9:00 format\"},{\"date\":\"2003-04-05T11:25:30Z\",\"dateType\":\"time-Z\",\"description\":\"yy-mm-ddThh:mm:ssZ format\"},{\"date\":\"2003-04-05T020:25:30\",\"dateType\":\"time-no offset\"},{\"date\":\"20:15:30\",\"dateType\":\"timeonly\",\"description\":\"hh:mm:ss\"},{\"dateType\":\"null\",\"description\":\"null value\"}]},\"pointOfContact\":[{\"party\":[{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\"}],\"role\":\"administrator\"}],\"abstract\":\"Date and time testing recordset. The individual records can be used to test the import of dates recorded in various formats. The mdEditor allows the selection of a \\\"Precision\\\" when using the date picker. The selected precision (e.g., \\\"Year\\\") is not stored in the JSON, it is only used to format how the entered date is stored. When importing data, the mdEditor sets the displayed precision based on how the value is stored in the JSON.\\n\\nSelecting the \\\"Time\\\" precision, will store the entered value as local time, formatted using the full ISO date-time +/- the UTC timezone offset (e.g., 2003-04-05T20:25:30-9:00).\\n\\n# Citation test date\\nThe `Citation date test` record contains several citation dates stored in a variety of allowable ISO date-time formats. Some values were manually edited to represent formats that the mdEditor might see on import, but does not write to JSON. formats:\\n\\n- Year: 2000\\n- Month: 2001-02\\n- Day: 2002-03-04\\n- Time: 2003-04-05T11:25:30-9:00 (format stored by mdEditor)\\n- Time: 2003-04-05T11:25:30Z (manually edited JSON)\\n- Time: 2003-04-05T20:25:30 (manually edited JSON)\\n- Time: 20:15:30\\n- Time: null\\n\\nThe above file will generate several errors on import:\\n- Validation Error in Main > Citation > date > 5 > date\\n  - should match pattern \\\"^(\\\\d{4}(-\\\\d{2})?(-\\\\d{2})?$)|(^\\\\d{4}-\\\\d{2}-\\\\d{2}(T\\\\d{2})?(\\\\:\\\\d{2}(\\\\:\\\\d{2}(\\\\.\\\\d+)?)?|Z)?(Z|(-|\\\\+)\\\\d{2}(:\\\\d{2})?)?$)\\\"\\n- Validation Error in Main > Citation > date > 6 > date\\n  - should match pattern \\\"^(\\\\d{4}(-\\\\d{2})?(-\\\\d{2})?$)|(^\\\\d{4}-\\\\d{2}-\\\\d{2}(T\\\\d{2})?(\\\\:\\\\d{2}(\\\\:\\\\d{2}(\\\\.\\\\d+)?)?|Z)?(Z|(-|\\\\+)\\\\d{2}(:\\\\d{2})?)?$)\\\"\\n- Required Field: date\\n  - The 'date' field is required in Main > Citation > date > 7\\n\\n# Time period tests\\nThe remaining records each specify a \\\"Time period\\\" value, entered in one of the above precisions.\",\"status\":[\"pending\"],\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T20:11:19.576Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "20328ebe",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"20328ebe-7349-4d70-a916-f873698b8ec2\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"YYYY Time Period\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = `2024`\"}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T19:10:59.140Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "a84cb51a",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"a84cb51a-110f-440d-8837-5b9869c61dad\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"YM Time Period\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024-05\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = `2024-05`\"}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T19:11:04.369Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "4e25bf16",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"4e25bf16-46fc-4362-87a9-723a2881e840\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"YMD Time Period\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024-03-04\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = `2024-03-04`\"}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T19:11:10.549Z",
+        "rev": null
+      },
+      "type": "records",
+      "meta": {
+        "title": "YMD Time Period",
+        "icon": "file",
+        "export": true
+      }
+    },
+    {
+      "id": "4159cdf7",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"4159cdf7-ce75-4aea-8639-abf768bf9da6\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"YMD-H:M:S +/- offset Time Period\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2024-07-02\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = `2024-07-02T08:25:04-08:00`\"}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T19:55:45.387Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "cbdd09b6",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"cbdd09b6-b716-4930-9e19-947c1a8ba34d\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"YMD-H:M:SZ Time Period\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"timePeriod\":{\"startDateTime\":\"2025-06-07T10:25:35Z\"},\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = `2025-06-07T10:25:35Z`\"}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T19:55:36.215Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "22be95a4",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"22be95a4-b8c5-4073-9ec0-232437e0faf4\",\"namespace\":\"urn:uuid\"},\"metadataContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"administrator\"}],\"defaultMetadataLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"}},\"resourceInfo\":{\"citation\":{\"title\":\"NULL Time Period\"},\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"status\":[\"underDevelopment\"],\"resourceType\":[{\"name\":\"Record to test date import/export\",\"type\":\"document\"}],\"pointOfContact\":[{\"party\":[{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\"}],\"role\":\"author\"}],\"abstract\":\"Test of data-time control. TimePeriod StartDate = `null`\"}},\"metadataRepository\":[]}",
+        "date-updated": "2026-02-04T19:10:49.810Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "tvcv9bbi",
+      "attributes": {
+        "json": "{\"contactId\":\"9c5f0309-c537-42bf-bd24-8c9530f83192\",\"isOrganization\":false,\"name\":\"Hilmar A. Maier\",\"positionName\":\"IT Specialist (Data Management)\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[{\"service\":[\"voice\"],\"phoneName\":\"work\",\"phoneNumber\":\"+1.907.456.0239\"}],\"address\":[{\"addressType\":[\"physical\",\"mailing\"],\"deliveryPoint\":[\"101 12th AV, Room 216\",\"Science Applications\"],\"city\":\"Fairbanks\",\"postalCode\":\"99701\",\"country\":\"USA\",\"administrativeArea\":\"AK\"}],\"electronicMailAddress\":[\"Hilmar_Maier@fws.gov\"],\"onlineResource\":[{\"function\":\"orcid\",\"uri\":\"http://orcid.org/0000-0002-8442-0701\",\"name\":\"ORCID\"}],\"hoursOfService\":[],\"contactType\":\"federal\",\"externalIdentifier\":[]}",
+        "date-updated": "2017-04-07T20:30:28.117Z",
+        "rev": null
+      },
+      "type": "contacts",
+      "meta": {
+        "title": "Hilmar A. Maier",
+        "icon": "users",
+        "export": true
+      }
+    },
+    {
+      "id": "f16524f3",
+      "attributes": {
+        "json": "{\"contactId\":\"f16524f3-6ad7-44fa-842a-ec5bf8cb2c95\",\"isOrganization\":true,\"name\":\"U.S. Geological Survey 1\",\"memberOfOrganization\":[],\"logoGraphic\":[],\"phone\":[],\"address\":[],\"electronicMailAddress\":[],\"externalIdentifier\":[],\"onlineResource\":[],\"hoursOfService\":[]}",
+        "date-updated": "2026-02-04T18:19:32.686Z",
+        "rev": null
+      },
+      "type": "contacts",
+      "meta": {
+        "title": "U.S. Geological Survey 1",
+        "icon": "users",
+        "export": true
+      }
+    },
+    {
+      "id": "bi5inn11",
+      "attributes": {
+        "compress-on-save": true,
+        "show-splash": false,
+        "keep-settings": true,
+        "auto-save": false,
+        "show-delete": false,
+        "show-copy": false,
+        "last-version": "1.3.1+d3776e21",
+        "date-updated": "2022-06-01T00:21:53.203Z",
+        "character-set": "UTF-8",
+        "country": "USA",
+        "language": "eng",
+        "import-uri-base": "",
+        "md-translator-api": "https://api.sciencebase.gov/mdTranslator/api/v3/translator",
+        "itis-proxy-url": "https://dev-mdtranslator.mdeditor.org",
+        "fiscal-start-month": "10",
+        "repository-defaults": "[]",
+        "publish-options": "[{\"publisher\":\"CouchDB\"},{\"publisher\":\"ScienceBase\",\"publisherEndpoint\":\"https://api.sciencebase.gov/sbmd-service/\"}]",
+        "custom-schemas": "[]"
+      },
+      "type": "settings",
+      "meta": {
+        "title": "N/A",
+        "icon": "gear",
+        "export": true
+      }
+    }
+  ]
+}

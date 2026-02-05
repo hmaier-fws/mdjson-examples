@@ -1,0 +1,111 @@
+[
+  {
+    "schema": {
+      "name": "mdJson",
+      "version": "2.10.2"
+    },
+    "metadata": {
+      "metadataInfo": {
+        "metadataIdentifier": {
+          "identifier": "2b6173a7-fe57-4878-bdc6-d6e27b6902cb",
+          "namespace": "urn:uuid"
+        },
+        "metadataContact": [
+          {
+            "party": [
+              {
+                "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+              }
+            ],
+            "role": "administrator"
+          }
+        ],
+        "defaultMetadataLocale": {
+          "language": "eng",
+          "characterSet": "UTF-8",
+          "country": "USA"
+        }
+      },
+      "resourceInfo": {
+        "resourceType": [
+          {
+            "type": "report"
+          }
+        ],
+        "citation": {
+          "title": "Citation date test",
+          "date": [
+            {
+              "date": "2000",
+              "dateType": "year",
+              "description": "yyyy format"
+            },
+            {
+              "date": "2001-02",
+              "dateType": "month",
+              "description": "yyyy-mm format"
+            },
+            {
+              "date": "2002-03-04",
+              "dateType": "day",
+              "description": "yyyy-mm-dd format"
+            },
+            {
+              "date": "2003-04-05T11:25:30-09:00",
+              "dateType": "time",
+              "description": "Default yy-mm-ddThh:mm:ss-9:00 format"
+            },
+            {
+              "date": "2003-04-05T11:25:30Z",
+              "dateType": "time-Z",
+              "description": "yy-mm-ddThh:mm:ssZ format"
+            },
+            {
+              "date": "2003-04-05T020:25:30",
+              "dateType": "time-no offset"
+            },
+            {
+              "date": "20:15:30",
+              "dateType": "timeonly",
+              "description": "hh:mm:ss"
+            },
+            {
+              "dateType": "null",
+              "description": "null value"
+            }
+          ]
+        },
+        "pointOfContact": [
+          {
+            "party": [
+              {
+                "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95"
+              }
+            ],
+            "role": "administrator"
+          }
+        ],
+        "abstract": "Date and time testing recordset. The individual records can be used to test the import of dates recorded in various formats. The mdEditor allows the selection of a \"Precision\" when using the date picker. The selected precision (e.g., \"Year\") is not stored in the JSON, it is only used to format how the entered date is stored. When importing data, the mdEditor sets the displayed precision based on how the value is stored in the JSON.\n\nSelecting the \"Time\" precision, will store the entered value as local time, formatted using the full ISO date-time +/- the UTC timezone offset (e.g., 2003-04-05T20:25:30-9:00).\n\n# Citation test date\nThe `Citation date test` record contains several citation dates stored in a variety of allowable ISO date-time formats. Some values were manually edited to represent formats that the mdEditor might see on import, but does not write to JSON. formats:\n\n- Year: 2000\n- Month: 2001-02\n- Day: 2002-03-04\n- Time: 2003-04-05T11:25:30-9:00 (format stored by mdEditor)\n- Time: 2003-04-05T11:25:30Z (manually edited JSON)\n- Time: 2003-04-05T20:25:30 (manually edited JSON)\n- Time: 20:15:30\n- Time: null\n\nThe above file will generate several errors on import:\n- Validation Error in Main > Citation > date > 5 > date\n  - should match pattern \"^(\\d{4}(-\\d{2})?(-\\d{2})?$)|(^\\d{4}-\\d{2}-\\d{2}(T\\d{2})?(\\:\\d{2}(\\:\\d{2}(\\.\\d+)?)?|Z)?(Z|(-|\\+)\\d{2}(:\\d{2})?)?$)\"\n- Validation Error in Main > Citation > date > 6 > date\n  - should match pattern \"^(\\d{4}(-\\d{2})?(-\\d{2})?$)|(^\\d{4}-\\d{2}-\\d{2}(T\\d{2})?(\\:\\d{2}(\\:\\d{2}(\\.\\d+)?)?|Z)?(Z|(-|\\+)\\d{2}(:\\d{2})?)?$)\"\n- Required Field: date\n  - The 'date' field is required in Main > Citation > date > 7\n\n# Time period tests\nThe remaining records each specify a \"Time period\" value, entered in one of the above precisions.",
+        "status": [
+          "pending"
+        ],
+        "defaultResourceLocale": {
+          "language": "eng",
+          "characterSet": "UTF-8",
+          "country": "USA"
+        }
+      }
+    },
+    "metadataRepository": [
+    ],
+    "dataDictionary": [
+    ],
+    "contact": [
+      {
+        "contactId": "f16524f3-6ad7-44fa-842a-ec5bf8cb2c95",
+        "isOrganization": true,
+        "name": "U.S. Geological Survey 1"
+      }
+    ]
+  }
+]
