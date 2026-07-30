@@ -1,0 +1,51 @@
+[
+  {
+    "schema": {
+      "name": "mdJson",
+      "version": "2.10.2"
+    },
+    "metadata": {
+      "metadataInfo": {
+        "metadataIdentifier": {
+          "identifier": "b9de12a3-e807-4efa-b3b0-5626d814988c",
+          "namespace": "urn:uuid"
+        }
+      },
+      "resourceInfo": {
+        "resourceType": [
+          {
+            "type": "software"
+          }
+        ],
+        "citation": {
+          "title": "mdEditor v1.3.2 test",
+          "date": [
+            {
+              "date": "2026-07-30",
+              "dateType": "creation"
+            }
+          ]
+        },
+        "abstract": "Test record created using the mdEditor v1.3.2 production version (https://github.com/adiwg/mdEditor/tree/ef2e625f). After initial creation and export, file \"v132-extent-mdjson-20260730.json\" was edited to remove the contents of the `extent.geographicExtent` element. This file contains only an \"Extent Description\" (`extent.description`) and a null `extent.geographicExtent` element:\n```\n\"extent\": [\n  {\n    \"description\": \"Extent 0 extent description\",\n    \"geographicExtent\": [ ]\n  }\n]\n```\n",
+        "defaultResourceLocale": {
+          "language": "eng",
+          "characterSet": "UTF-8",
+          "country": "USA"
+        },
+        "extent": [
+          {
+            "description": "Extent 0 extent description",
+            "geographicExtent": [
+            ]
+          }
+        ]
+      }
+    },
+    "metadataRepository": [
+    ],
+    "dataDictionary": [
+    ],
+    "contact": [
+    ]
+  }
+]

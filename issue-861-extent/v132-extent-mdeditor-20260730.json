@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "id": "b9de12a3",
+      "attributes": {
+        "profile": "org.adiwg.profile.full",
+        "json": "{\"schema\":{\"name\":\"mdJson\",\"version\":\"2.10.2\"},\"metadata\":{\"metadataInfo\":{\"metadataIdentifier\":{\"identifier\":\"b9de12a3-e807-4efa-b3b0-5626d814988c\",\"namespace\":\"urn:uuid\"}},\"resourceInfo\":{\"resourceType\":[{\"type\":\"software\"}],\"citation\":{\"title\":\"mdEditor v1.3.2 test\",\"date\":[{\"date\":\"2026-07-30\",\"dateType\":\"creation\"}]},\"abstract\":\"Test record created using the mdEditor v1.3.2 production version (https://github.com/adiwg/mdEditor/tree/ef2e625f). After initial creation, an \\\"Extent Description\\\" was added: \\\"Extent\\\" - \\\"Add Extent\\\" - enter text into \\\"Extent Description\\\" field.\",\"defaultResourceLocale\":{\"language\":\"eng\",\"characterSet\":\"UTF-8\",\"country\":\"USA\"},\"extent\":[{\"description\":\"Extent 0 extent description\",\"geographicExtent\":[{\"containsData\":true}]}]}},\"metadataRepository\":[]}",
+        "date-updated": "2026-07-30T20:14:50.235Z",
+        "rev": null
+      },
+      "type": "records"
+    },
+    {
+      "id": "2153c6dc",
+      "attributes": {
+        "compress-on-save": true,
+        "show-splash": false,
+        "keep-settings": true,
+        "auto-save": false,
+        "show-delete": false,
+        "show-copy": false,
+        "last-version": "1.3.2+ef2e625f",
+        "date-updated": "2026-07-30T20:07:59.290Z",
+        "character-set": "UTF-8",
+        "country": "USA",
+        "language": "eng",
+        "import-uri-base": "",
+        "md-translator-api": null,
+        "itis-proxy-url": null,
+        "fiscal-start-month": "10",
+        "repository-defaults": "[]",
+        "publish-options": "[{\"publisher\":\"ScienceBase\",\"publisherEndpoint\":\"https://api.sciencebase.gov/sbmd-service/\"},{\"publisher\":\"CouchDB\"}]",
+        "custom-schemas": "[]"
+      },
+      "type": "settings"
+    }
+  ]
+}
